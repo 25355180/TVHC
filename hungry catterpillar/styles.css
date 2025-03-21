@@ -1,0 +1,219 @@
+.colinbody {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+
+}
+.colinseyes {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.colinsmouth {
+    height: 10px;
+    width: 35px;
+    background-color: black;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+.colin{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+body#index{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    font-size: 50px;
+    background-color: lightblue;
+    background-image: radial-gradient(white 5%, transparent 60%);
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+}
+body#page1{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page2{
+    min-height: 700px;
+    font-size: 50px;
+    background-color: lightblue;
+    margin: 0;
+}
+#sun{
+    border-radius: 50%;
+    width:300px;
+    height: auto;
+    background-color: yellow;
+    float: right;
+}
+#ground{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-self: baseline;
+}
+body#page3{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page4{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page5{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page6{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page7{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page8{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page9{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page10{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page11{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+body#page12{
+    min-height: 700px;
+    height: 100%;
+    width: 40%;
+    background-image: url("bark.png"), url("grass.png");
+    font-size: 50px;
+    background-repeat: repeat-y, repeat-x; 
+    background-position: right top, left bottom; 
+    background-attachment: fixed; 
+    background-color: lightblue;
+    margin: 0;
+}
+
+#A{
+    background-color: green;
+    animation: idle 1s linear infinite;
+    animation-duration: 2.5s;
+    animation-delay: 1s; 
+}
+#B{
+    background-color: lawngreen;
+    animation: idle 1s linear infinite;
+    animation-duration: 2.5s;
+}
+#B:last-child {
+    background-color: red;
+  }
+  @keyframes idle {
+    0%, 100% {
+        bottom: 0;
+      }
+      50% {
+        bottom: 100px;
+      }
+  }
