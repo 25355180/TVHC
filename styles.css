@@ -250,12 +250,9 @@ body#page12{
         transform: rotate(0deg);
     }
 to {
-      transform: rotate(50deg);
+      transform: rotate(20deg);
     }
 to {
-    transform: rotate(0deg);
-    }
-to {
-    transform: rotate(-50deg);
+    transform: rotate(-20deg);
     }
 }
