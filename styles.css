@@ -66,8 +66,9 @@ body#page2{
     margin: 0;
 }
 .sun{
-    width: 100%;
+    width: 80%;
     height: auto;
+    animation: rotate 2s;
 }
 .ground{
     width: 100%;
@@ -243,3 +244,12 @@ body#page12{
         bottom: 100px;
       }
   }
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+to {
+      transform: rotate(60deg);
+    }
+}
