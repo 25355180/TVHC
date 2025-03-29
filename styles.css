@@ -68,7 +68,7 @@ body#page2{
 .sun{
     width: 80%;
     height: auto;
-    animation: rotate 5s ease-in-out infinite alternate-reverse;
+    animation: rotate 10s ease-in-out infinite alternate-reverse;
 }
 .ground{
     width: 100%;
