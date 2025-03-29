@@ -66,26 +66,12 @@ body#page2{
     margin: 0;
 }
 .sun{
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
-    display: flex;
-    background-image: radial-gradient(orange, rgb(244, 241, 55), rgb(221, 110, 30));
-    float: right;
-    position: relative;
+    width: 100%;
+    height: auto;
 }
 .ground{
-    height: 100px;
     width: 100%;
-    background-color: brown;
-    display: flex;
-    background: repeating-linear-gradient(
-        10deg,
-        rgb(86, 59, 20),
-        rgb(93, 50, 6) 10px,
-        rgb(106, 62, 5) 10px,
-        rgb(61, 32, 5) 20px
-    );
+    height: auto;
 }
   
 .eyes {
