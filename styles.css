@@ -246,13 +246,13 @@ body#page12{
   }
 
 @keyframes rotate {
-    from {
-        transform: rotate(0deg);
+    0% {
+      transform: rotate(0deg);
     }
-to {
+    50% {
       transform: rotate(20deg);
     }
-to {
-    transform: rotate(-20deg);
+    100% {
+      transform: rotate(-20deg);
     }
 }
