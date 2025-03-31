@@ -49,16 +49,12 @@ body#index{
     background-size: 100px 100px;
 }
 body#page1{
-    min-height: 700px;
-    height: auto;
-    max-width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
-    margin: 0;
+margin: 0;
+font-size: 50px;
+background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5) );
+}
+.tree{
+    float: right;
 }
 body#page2{
     font-size: 50px;
