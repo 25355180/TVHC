@@ -60,14 +60,14 @@ color: antiquewhite;
 .egg{
     width: 10%;
     z-index: 3;
-    animation: rock 0.2s ease-in-out infinite;
+    animation: rock 0.3s ease-in-out infinite;
     position: absolute;
     margin-top: 20%;
     right: 50%;
 }
 .moon{
     width: 30%;
-    animation: rock 10s ease-in-out infinite;
+    animation: rock 9s ease-in-out infinite;
     z-index: 1;
     position: absolute;
 }
