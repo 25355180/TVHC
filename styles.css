@@ -61,15 +61,11 @@ background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5), rgb(25, 28, 57
 .egg{
     width: 10%;
     position: relative;
-
-    margin-left: 200px;
-    margin-top: 800px;
     z-index: 2;
     animation: rock 0.2s ease-in-out infinite;
 }
 
 .moon{
-    float: right;
     width: 30%;
     animation: rock 10s ease-in-out infinite;
 }
