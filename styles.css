@@ -63,11 +63,14 @@ background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5), rgb(25, 28, 57
     position: relative;
     z-index: 2;
     animation: rock 0.2s ease-in-out infinite;
+    margin-top: 500px;
 }
 
 .moon{
     width: 30%;
     animation: rock 10s ease-in-out infinite;
+    z-index: 2;
+    position: relative;
 }
 body#page2{
     font-size: 50px;
