@@ -51,7 +51,7 @@ body#index{
 body#page1{
 margin: 0;
 font-size: 50px;
-background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5) );
+background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5), rgb(25, 28, 57), rgb(13, 65, 14) );
 }
 .tree{
     float: right;
