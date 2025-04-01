@@ -70,7 +70,7 @@ color: antiquewhite;
     width: 30%;
     animation: rock 10s ease-in-out infinite;
     z-index: 1;
-
+    position: relative;
 }
 body#page2{
     font-size: 50px;
