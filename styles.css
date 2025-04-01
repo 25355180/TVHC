@@ -63,7 +63,7 @@ color: antiquewhite;
     animation: rock 0.2s ease-in-out infinite;
     position: absolute;
     bottom: 200px;
-    left: 350px;
+    float: right;
 }
 .moon{
     width: 30%;
