@@ -56,7 +56,7 @@ color: antiquewhite;
 }
 .tree{
     z-index: 2;
-    margin-bottom: 400px;
+    top: -200px;
 }
 .pg1bg{
     display: inline-block;
