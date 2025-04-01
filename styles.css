@@ -62,7 +62,7 @@ background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5), rgb(25, 28, 57
 .egg{
     width: 10%;
     position: relative;
-    transform: translate(10px, 1000px);
+    transform: translate(150px, 1000px);
     z-index: 2;
 }
 .leaf{
