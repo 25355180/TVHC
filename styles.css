@@ -56,12 +56,10 @@ color: antiquewhite;
 }
 .tree{
     z-index: 2;
-    margin-bottom: 200px;
-    position: relative;
+    margin-bottom: 500px;
 }
 .egg{
     width: 10%;
-    position: relative;
     z-index: 3;
     animation: rock 0.2s ease-in-out infinite;
     margin-top: 100px;
@@ -70,6 +68,8 @@ color: antiquewhite;
     width: 30%;
     animation: rock 10s ease-in-out infinite;
     z-index: 1;
+}
+.pg1bg{
     position: relative;
 }
 body#page2{
