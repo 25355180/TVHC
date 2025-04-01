@@ -57,7 +57,10 @@ background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5), rgb(25, 28, 57
     float: right;
 }
 .egg{
-
+    transform: translate(10px, 20px);
+}
+.leaf{
+    transform: translate(100px, 20px);
 }
 .moon{
     float: right;
