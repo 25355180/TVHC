@@ -93,6 +93,8 @@ img{
 .ground{
     width: 100%;
     height: auto;
+    position: absolute;
+    margin-bottom: 50px;
 }
   
 .eyes {
