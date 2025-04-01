@@ -55,15 +55,19 @@ background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5), rgb(25, 28, 57
 }
 .tree{
     float: right;
+    width: 40%;
 }
 .egg{
     transform: translate(100px, -100px);
+    width: 40%;
 }
 .leaf{
     transform: translate(20px, -100px);
+    width: 40%;
 }
 .moon{
     float: right;
+    width: 40%;
 }
 body#page2{
     font-size: 50px;
