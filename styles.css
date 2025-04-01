@@ -62,12 +62,8 @@ color: antiquewhite;
     z-index: 3;
     animation: rock 0.2s ease-in-out infinite;
     position: absolute;
-<<<<<<< HEAD
     top: 400px;
     left: 150px;
-=======
-
->>>>>>> 933d9edaa4a32177c06b2dc571ea700cb04f9de6
 }
 .moon{
     width: 30%;
