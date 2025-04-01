@@ -88,8 +88,9 @@ img{
 .sun{
     width: 75%;
     height: auto;
-    animation: rotate 10s ease-in-out infinite alternate-reverse;
+    animation: rock 10s ease-in-out infinite alternate-reverse;
     position: absolute;
+    bottom:20px;
 }
 .ground{
     width: 100%;
