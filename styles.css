@@ -59,6 +59,7 @@ color: antiquewhite;
     position: absolute; 
     top: 0;
     right: 0;
+    width: 90%;
 }
 .egg{
     width: 10%;
