@@ -70,7 +70,7 @@ color: antiquewhite;
 .moon{
     width: 30%;
     animation: rock 10s ease-in-out infinite;
-    z-index: 2;
+    z-index: 3;
     position: relative;
 }
 body#page2{
