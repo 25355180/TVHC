@@ -61,7 +61,7 @@ color: antiquewhite;
     width: 10%;
     z-index: 3;
     animation: rock 0.2s ease-in-out infinite;
-    margin-bottom: 300px;
+    margin-bottom: 600px;
     position: absolute;
 }
 .moon{
