@@ -57,6 +57,10 @@ color: antiquewhite;
 .tree{
     z-index: 2;
 }
+.pg1txt{
+    color: antiquewhite;
+    background-color: black;
+}
 .egg{
     width: 10%;
     z-index: 3;
