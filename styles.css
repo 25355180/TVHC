@@ -57,9 +57,11 @@ color: antiquewhite;
 .tree{
     z-index: 1;
     position: relative;
-    float: right;
+
     width: 90%;
-    margin-bottom: 400px;
+}
+.pg1bg{
+    display: inline-block;
 }
 .egg{
     width: 10%;
@@ -74,7 +76,7 @@ color: antiquewhite;
     animation: rock 10s ease-in-out infinite;
     z-index: 3;
     position: relative;
-    float: left;
+
 }
 body#page2{
     font-size: 50px;
