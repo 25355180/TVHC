@@ -75,7 +75,8 @@ color: antiquewhite;
     float: left;
 }
 .bg1{
-    display: inline;
+    display: flex;
+    justify-content: space-between;
 }
 body#page2{
     font-size: 50px;
