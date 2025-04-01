@@ -74,6 +74,9 @@ color: antiquewhite;
     position: relative;
     float: left;
 }
+.bg1{
+    display: inline;
+}
 body#page2{
     font-size: 50px;
     background-color: antiquewhite;
