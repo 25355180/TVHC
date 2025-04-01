@@ -56,7 +56,6 @@ color: antiquewhite;
 }
 .tree{
     z-index: 1;
-    position: relative;
 
     width: 90%;
 }
@@ -72,10 +71,8 @@ color: antiquewhite;
 }
 .moon{
     width: 30%;
-    height: auto;
     animation: rock 10s ease-in-out infinite;
     z-index: 3;
-    position: relative;
 
 }
 body#page2{
