@@ -75,10 +75,6 @@ color: antiquewhite;
     position: relative;
     float: left;
 }
-.bg1{
-    display: flex;
-    justify-content: space-between;
-}
 body#page2{
     font-size: 50px;
     background-color: antiquewhite;
