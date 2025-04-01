@@ -55,7 +55,7 @@ background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5));
 color: antiquewhite;
 }
 .tree{
-    z-index: 1;
+    z-index: 2;
     margin-bottom: 400px;
 }
 .pg1bg{
@@ -64,14 +64,14 @@ color: antiquewhite;
 .egg{
     width: 10%;
     position: relative;
-    z-index: 2;
+    z-index: 3;
     animation: rock 0.2s ease-in-out infinite;
     margin-top: 500px;
 }
 .moon{
     width: 30%;
     animation: rock 10s ease-in-out infinite;
-    z-index: 3;
+    z-index: 1;
 
 }
 body#page2{
