@@ -57,8 +57,7 @@ color: antiquewhite;
 .tree{
     z-index: 1;
     position: relative;
-    top: 0;
-    right: 0;
+    float: right;
     width: 90%;
 }
 .egg{
