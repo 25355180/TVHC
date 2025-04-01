@@ -58,6 +58,7 @@ color: antiquewhite;
     float: right;
     z-index: 1;
     position: relative;
+    margin-bottom: 300px;
 }
 .egg{
     width: 10%;
