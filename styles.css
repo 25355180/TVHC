@@ -104,116 +104,58 @@ img{
 }
 
 body#page3{
-    font-size: 50px;
+    font-size: 30px;
     background-color: antiquewhite;
     margin: 0;
 }
 body#page4{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    font-size: 30px;
+    background-color: antiquewhite;
     margin: 0;
 }
 body#page5{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    font-size: 30px;
+    background-color: antiquewhite;
     margin: 0;
 }
 body#page6{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    font-size: 30px;
+    background-color: antiquewhite;
     margin: 0;
 }
 body#page7{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    font-size: 30px;
+    background-color: antiquewhite;
     margin: 0;
 }
 body#page8{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    font-size: 30px;
+    background-color: antiquewhite;
     margin: 0;
 }
 body#page9{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    font-size: 30px;
+    background-color: antiquewhite;
     margin: 0;
 }
 body#page10{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    font-size: 30px;
+    background-color: antiquewhite;
     margin: 0;
 }
 body#page11{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    font-size: 30px;
+    background-color: antiquewhite;
     margin: 0;
 }
 body#page12{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
-    font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    font-size: 30px;
+    background-color: antiquewhite;
+    margin: 0;
+}
+body#page13{
+    font-size: 30px;
+    background-color: antiquewhite;
     margin: 0;
 }
 .body.clearfix::after {
