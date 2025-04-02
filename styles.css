@@ -8,7 +8,7 @@
     animation: idle 2s ease-in-out infinite alternate;
     position: absolute;
 }
-.colinBody:nth-child(odd) {
+.colin:nth-child(odd) {
 
     animation-delay: 1s;
 }
