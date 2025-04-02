@@ -3,14 +3,17 @@
     position: absolute;
     width: 8%;
     height: auto;
-    animation: idle 2s ease-in-out infinite alternate;
     display: flex;
     justify-content: space-evenly;
     margin: 0;
+    bottom:30px;
 }
 #B{
     animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s;
+}
+#A{
+    animation: idle 2s ease-in-out infinite alternate;
 }
 body{
     width: 100%;
