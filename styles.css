@@ -178,7 +178,7 @@ body#page13{
     height: auto;
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     left: 400px;
 }
 .txt{
