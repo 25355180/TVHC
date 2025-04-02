@@ -220,8 +220,11 @@ body#page12{
     }
 }
 @keyframes crawl {
+    0% {
+        right: 0;
+    }
     100% {
-        right: 100%;
+        right: 100%; 
     }
 }
 
