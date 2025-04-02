@@ -1,15 +1,12 @@
 .colinseyes {
     height: auto;
-    width: 50%;
-    background-color: black;
+    width: 10%;
     display: flex;
     position: relative;
 }
-
 .colinsnose {
-    width: 50%;
+    width: 10%;
     height: auto;
-    background-color: black;
     display: flex;
     position: relative;
 }
@@ -258,7 +255,7 @@ body#page12{
         bottom: 0;
       }
       50% {
-        bottom: 100px;
+        bottom: 50px;
       }
   }
 
