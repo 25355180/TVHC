@@ -104,7 +104,7 @@ img{
 .ground{
     width: 100%;
     height: auto;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
 }
