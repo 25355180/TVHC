@@ -180,7 +180,7 @@ body#page13{
     flex-direction: column;
     position: relative;
     margin: 0;
-    left: 75%;
+    left: 65%;
     bottom: 500px;
     animation: rock 3s ease-in-out infinite;
 }
