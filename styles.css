@@ -1,7 +1,7 @@
 .colin{
     width: 8%;
     height: auto;
-    display: flex;
+    display: inline-flex;
     justify-content: space-evenly;
     margin: 0;
     bottom:30px;
@@ -11,7 +11,9 @@
     animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s; 
 }
-
+.colin:nth-of-type(2n-1) {
+    animation: idle 2s ease-in-out infinite alternate;
+}
 
 body{
     width: 100%;
