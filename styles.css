@@ -9,7 +9,7 @@
     bottom: 0;
 }
 .colin:nth-of-type(2n) {
-    animation: crawl 2s ease-in-out infinite alternate,
+    animation: crawl 2s ease-in-out infinite,
     idle 2s ease-in-out infinite alternate 1s;
 }
 .colin:nth-of-type(2n-1) {
