@@ -19,7 +19,6 @@
     width: 15%;
     height: auto;
     display: inline-flex;
-    justify-content: space-evenly;
     margin: 0;
     position: relative;
     flex-direction: row;
