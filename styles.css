@@ -9,11 +9,13 @@
     margin-top: 140px;
 }
 .colin:nth-of-type(2n) {
-    animation: idle 2s ease-in-out infinite alternate-reverse;
+    animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s; 
+    translate: 20px;
 }
 .colin:nth-of-type(2n-1) {
-    animation: idle 2s ease-in-out infinite alternate-reverse;
+    animation: idle 2s ease-in-out infinite alternate;
+    translate: 20px;
 }
 
 body{
@@ -216,7 +218,7 @@ body#page12{
         bottom: 0;
     }
     100% {
-        bottom: 50px; 
+        bottom: 20px; 
     }
 }
 
