@@ -10,6 +10,7 @@
 }
 .colin:nth-child(odd) {
     animation: idle 2s ease-in-out infinite alternate;
+    animation-delay: 1s;
 }
 body{
     width: 100%;
