@@ -1,5 +1,5 @@
 .colin{
-
+    animation: idle 2s ease-in-out infinite alternate;
     width: 8%;
     height: auto;
     display: flex;
@@ -7,12 +7,9 @@
     margin: 0;
     bottom:30px;
 }
-.colin .ColinBody:nth-child(odd) {
+.colin :nth-child(odd) {
     animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s;
-}
-.colin .ClinBody:nth-child(even) {
-    animation: idle 2s ease-in-out infinite alternate;
 }
 body{
     width: 100%;
