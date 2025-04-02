@@ -28,9 +28,8 @@
     position: relative;
 }
 .colin{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: inline;
+    position: absolute;
     width: 100%;
     height: auto;
     animation: idle 2s linear ease-in-out infinite;
