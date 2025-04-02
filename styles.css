@@ -2,13 +2,13 @@
     height: auto;
     width: 10%;
     display: flex;
-    position: relative;
+    position: absolute;
 }
 .colinsnose {
     width: 10%;
     height: auto;
     display: flex;
-    position: relative;
+    position: absolute;
 }
 .colin{
     position: absolute;
@@ -230,34 +230,19 @@ body#page12{
     background-color: lightblue;
     margin: 0;
 }
-
-#A{
-    background-color: green;
-    animation: idle 1s linear infinite;
-    animation-duration: 2.5s;
-    animation-delay: 1s; 
-}
-#B{
-    background-color: lawngreen;
-    animation: idle 1s linear infinite;
-    animation-duration: 2.5s;
-}
-#B:last-child {
-    background-color: red;
-  }
 .body.clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
-  @keyframes idle {
+@keyframes idle {
     0%, 100% {
         bottom: 0;
-      }
-      50% {
+    }
+    50% {
         bottom: 50px;
-      }
-  }
+    }
+ }
 
 @keyframes rotate {
     0% {
