@@ -74,7 +74,7 @@ img{
     position: absolute;
     bottom:20px;
 }
-.sun{
+.sunReverse{
     width: 75%;
     height: auto;
     animation: rock 10s ease-in-out infinite alternate-reverse;
@@ -91,15 +91,8 @@ img{
 
 
 body#page3{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    background-image: url("bark.png"), url("grass.png");
     font-size: 50px;
-    background-repeat: repeat-y, repeat-x; 
-    background-position: right top, left bottom; 
-    background-attachment: fixed; 
-    background-color: lightblue;
+    background-color: antiquewhite;
     margin: 0;
 }
 body#page4{
@@ -231,7 +224,7 @@ body#page12{
         left: 0;
     }
     100% {
-        left: 65%; 
+        left: 63%; 
     }
 }
 
