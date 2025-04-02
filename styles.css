@@ -19,11 +19,11 @@ h1{
     top:0;
 }
 .colinTitle{
-    width: 10%;
+    width: 15%;
     height: auto;
     display: inline-flex;
     margin: 0;
-    position: relative;
+    position: absolute;
     bottom: 0;
 }
 .colinTitle:nth-of-type(2n) {
