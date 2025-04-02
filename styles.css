@@ -4,7 +4,7 @@
     display: inline-flex;
     justify-content: space-evenly;
     margin: 0;
-    bottom:30px;
+    bottom:60px;
     position: absolute;
     flex-direction: row;
 }
