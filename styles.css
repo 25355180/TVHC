@@ -16,7 +16,7 @@
     animation: crawl 30s ease-in-out, idle 2s ease-in-out infinite alternate;
 }
 .colinTitle{
-    width: 20%;
+    width: 15%;
     height: auto;
     display: inline-flex;
     justify-content: space-evenly;
