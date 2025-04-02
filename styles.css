@@ -94,13 +94,7 @@ img{
     position: relative;
     bottom:0;
 }
-.sunReverse{
-    width: 75%;
-    height: auto;
-    animation: rock 10s ease-in-out infinite alternate-reverse;
-    position: relative;
-    top:0;
-}
+
 .ground{
     width: 100%;
     height: auto;
