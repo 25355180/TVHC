@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="styles.css">
   </head>
 <body id="page2">
-
+  <script>
+    const colin = document.querySelector('.colin');
+    colin.addEventListener('animationend', () => {
+        window.location.href = 'page3.html'; 
+    });
+  </script>
   <img src="sun.png" class="sun">
   <a href="page3.html">Next page</a>
   <p class="pg2txt">One sunday morning the warm sun came up and - pop! - Out of the egg came a very tiny and very hungry caterpillar.</p>
