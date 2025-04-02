@@ -7,7 +7,7 @@
     bottom:30px;
     position: absolute;
 }
-.colin .ColinBody:nth-of-type(2n) {
+.colin:nth-of-type(2n) {
     animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s; 
 }
