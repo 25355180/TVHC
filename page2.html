@@ -7,14 +7,7 @@
     <link rel="stylesheet" href="styles.css">
   </head>
 <body id="page2">
-  <script>
-    const colin = document.querySelector('.colin');
-    colin.addEventListener('animationend', (event) => {
-      if (event.animationName === 'crawl') {
-          window.location.href = 'page3.html'; 
-      }
-    });
-  </script>
+
   <img src="sun.png" class="sun">
   <a href="page3.html">Next page</a>
   <p>One sunday morning the warm sun came up and - pop! - Out of the egg came a very tiny and very hungry caterpillar.</p>
@@ -24,6 +17,16 @@
   <img src="caterpillarA.png" class="colin">
   <img src="caterpillarB.png" class="colin">
   <img src="caterpillarHead.png" class="colin">
+  <script>
+    const colins = document.querySelectorAll('.colin');
+    colins.forEach((colin) => {
+        colin.addEventListener('animationend', (event) => {
+            if (event.animationName === 'crawl') {
+                window.location.href = 'page3.html';
+            }
+        });
+    });
+  </script>
   <img src="ground.png" class="ground">
 </body>
 </html>
