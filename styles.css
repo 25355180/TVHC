@@ -163,6 +163,10 @@ body#page13{
     display: block;
     clear: both;
 }
+.leaf{
+    width: 20%;
+    height: auto;
+}
 .txt{
     z-index: 10;
     width: 100%;
