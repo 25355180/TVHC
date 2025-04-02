@@ -179,7 +179,7 @@ body#page13{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    position: relative;
+    position: absolute;
     left: 75%;
     margin-bottom: 50%;
     animation: rock 3s ease-in-out infinite;
