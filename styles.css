@@ -73,6 +73,8 @@ img{
     animation: rock 10s ease-in-out infinite alternate-reverse;
     position: absolute;
     bottom:20px;
+}
+.pg2txt{
     z-index: 1;
 }
 .ground{
