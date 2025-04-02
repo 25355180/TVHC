@@ -218,6 +218,9 @@ body#page12{
     display: block;
     clear: both;
 }
+p{
+    z-index: 4;
+}
 @keyframes idle {
     0%, 50%{
         bottom: 0;
