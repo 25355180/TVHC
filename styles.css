@@ -203,11 +203,14 @@ body#page12{
     clear: both;
 }
 @keyframes idle {
-    0%, 100% {
+    0% {
         bottom: 0;
     }
     50% {
         bottom: 50px;
+    }
+    100% {
+        right: 50px;
     }
  }
 
