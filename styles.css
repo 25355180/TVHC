@@ -1,27 +1,21 @@
 .colinseyes {
-    height: 25px;
-    width: 25px;
+    height: auto;
+    width: 50%;
     background-color: black;
-    border-radius: 50%;
     display: flex;
-    margin-left: 50px;
-    margin-top: 20px;
     position: relative;
 }
 
 .colinsnose {
-    height: 10px;
-    width: 35px;
+    width: 50%;
+    height: auto;
     background-color: black;
-    border-radius: 0 0 50px 50px;
     display: flex;
-    margin-left: 50px;
-    margin-top: 20px;
     position: relative;
 }
 .colin{
     position: absolute;
-    width: 10%;
+    width: 8%;
     height: auto;
     animation: idle 2s ease-in-out infinite alternate;
     display: flex;
