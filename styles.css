@@ -6,6 +6,7 @@
     margin: 0;
     bottom:30px;
     animation: idle 2s ease-in-out infinite alternate;
+    position: absolute;
 }
 .colinBody:nth-child(odd) {
     animation: idle 2s ease-in-out infinite alternate;
@@ -13,7 +14,7 @@
 }
 .colinBody{
     animation: idle 2s ease-in-out infinite alternate;
-    position: absolute;
+
 }
 body{
     width: 100%;
