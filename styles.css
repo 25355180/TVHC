@@ -8,11 +8,11 @@
     margin: 0;
     bottom:30px;
 }
-#B{
+.B{
     animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s;
 }
-#A{
+.A{
     animation: idle 2s ease-in-out infinite alternate;
 }
 body{
