@@ -5,15 +5,14 @@
     justify-content: space-evenly;
     margin: 0;
     bottom:30px;
-
     position: absolute;
 }
-.colin:nth-of-type(odd) {
+.colin:nth-child(odd) {
     animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s; 
 }
 
-.colin:nth-of-type(even) {
+.colin:nth-child(even) {
     animation: idle 2s ease-in-out infinite alternate;
 }
 
