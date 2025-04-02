@@ -9,11 +9,11 @@
     margin-top: 140px;
 }
 .colin:nth-of-type(2n) {
-    animation: idle 2s ease-in-out infinite alternate;
+    animation: idle 2s ease-in-out infinite;
     animation-delay: 1s; 
 }
 .colin:nth-of-type(2n-1) {
-    animation: idle 2s ease-in-out infinite alternate;
+    animation: idle 2s ease-in-out infinite;
 }
 
 body{
@@ -212,10 +212,8 @@ body#page12{
     clear: both;
 }
 @keyframes idle {
-    0%{
+    0%, 50%{
         bottom: 0;
-    }
-    50% {
     }
     100% {
         bottom: 50px; 
