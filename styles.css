@@ -8,6 +8,16 @@
     flex-direction: row;
     bottom: 0;
 }
+.colin10{
+    width: 6%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: 0;
+    position: relative;
+    flex-direction: row;
+    bottom: 0;
+}
 .colin:nth-of-type(2n) {
     animation: crawl 30s ease-in-out,
     idle 2s ease-in-out infinite alternate 1s;
