@@ -92,7 +92,7 @@ img{
     height: auto;
     animation: rock 10s ease-in-out infinite alternate-reverse;
     position: absolute;
-    bottom:0px;
+    bottom:0;
 }
 .sunReverse{
     width: 75%;
