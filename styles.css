@@ -1,19 +1,4 @@
-.colinseyes {
-    height: auto;
-    width: 20%;
-    display: flex;
-    position: absolute;
-    left: 500px;
-    top: 30px;
-}
-.colinsnose {
-    width: 20%;
-    height: auto;
-    display: flex;
-    position: absolute;
-    left: 500px;
-    top: 100px;
-}
+
 .colin{
     position: absolute;
     width: 8%;
