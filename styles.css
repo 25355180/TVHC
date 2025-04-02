@@ -23,7 +23,7 @@
     justify-content: space-evenly;
     margin: 0;
 }
-#b{
+#B{
     animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s;
 }
