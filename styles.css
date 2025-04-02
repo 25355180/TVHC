@@ -181,7 +181,7 @@ body#page13{
     position: relative;
     margin: 0;
     left: 75%;
-    bottom: 50%;
+    bottom: 500px;
     animation: rock 3s ease-in-out infinite;
 }
 .txt{
