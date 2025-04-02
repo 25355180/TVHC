@@ -25,6 +25,7 @@ h1{
     margin: 0;
     position: relative;
     bottom: 0;
+    float: left;
 }
 .colinTitle:nth-of-type(2n) {
     animation: idle 2s ease-in-out infinite alternate 1s;
