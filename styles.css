@@ -176,6 +176,9 @@ body#page13{
 .leaf{
     width: 20%;
     height: auto;
+    float: right;
+    display: flex;
+    flex-direction: column;
 }
 .txt{
     z-index: 10;
