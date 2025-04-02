@@ -17,7 +17,7 @@
     position: relative;
 }
 
-.colinsmouth {
+.colinsnose {
     height: 10px;
     width: 35px;
     background-color: black;
@@ -33,6 +33,7 @@
     align-items: center;
     width: 100%;
     height: auto;
+    animation: idle 2s linear ease-in-out infinite;
 }
 body{
     width: 100%;
