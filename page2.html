@@ -9,8 +9,10 @@
 <body id="page2">
   <script>
     const colin = document.querySelector('.colin');
-    colin.addEventListener('animationend', () => {
-        window.location.href = 'page3.html'; 
+    colin.addEventListener('animationend', (event) => {
+      if (event.animationName === 'crawl') {
+          window.location.href = 'page3.html'; 
+      }
     });
   </script>
   <img src="sun.png" class="sun">
