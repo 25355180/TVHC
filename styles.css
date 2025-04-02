@@ -24,7 +24,7 @@
     width: 10%;
     height: auto;
     animation: idle 2s ease-in-out infinite alternate;
-    display: inline;
+    display: inline-block;
 }
 body{
     width: 100%;
