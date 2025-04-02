@@ -81,9 +81,6 @@ img{
     position: absolute;
     top:0px;
 }
-.pg2txt{
-    z-index: 1;
-}
 .ground{
     width: 100%;
     height: auto;
@@ -234,7 +231,7 @@ p{
         left: 0;
     }
     100% {
-        left: 80%; 
+        left: 60%; 
     }
 }
 
