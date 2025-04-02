@@ -230,6 +230,8 @@ body#page12{
 }
 .txt{
     z-index: 10;
+    width: 100%;
+    height: auto;
 }
 @keyframes idle {
     0%, 50%{
