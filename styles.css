@@ -74,6 +74,13 @@ img{
     position: absolute;
     bottom:20px;
 }
+.sun{
+    width: 75%;
+    height: auto;
+    animation: rock 10s ease-in-out infinite alternate-reverse;
+    position: absolute;
+    top:0px;
+}
 .pg2txt{
     z-index: 1;
 }
@@ -224,7 +231,7 @@ body#page12{
         left: 0;
     }
     100% {
-        left: 100%; 
+        left: 80%; 
     }
 }
 
