@@ -24,7 +24,9 @@
     width: 10%;
     height: auto;
     animation: idle 2s ease-in-out infinite alternate;
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
 }
 body{
     width: 100%;
