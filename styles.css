@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     margin: 0;
     bottom:30px;
+    animation: idle 2s ease-in-out infinite alternate;
 }
 .colinBody:nth-child(odd) {
     animation: idle 2s ease-in-out infinite alternate;
