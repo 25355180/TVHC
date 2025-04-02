@@ -4,9 +4,9 @@
     display: inline-flex;
     justify-content: space-evenly;
     margin: 0;
-
     position: relative;
     flex-direction: row;
+    top: 100px;
 }
 .colin:nth-of-type(2n) {
     animation: idle 2s ease-in-out infinite alternate;
