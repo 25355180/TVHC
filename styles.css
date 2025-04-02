@@ -2,7 +2,8 @@
 
     width: 8%;
     height: auto;
-
+    display: flex;
+    justify-content: space-evenly;
     margin: 0;
     bottom:30px;
 }
