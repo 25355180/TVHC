@@ -13,6 +13,7 @@
 }
 .colinBody{
     animation: idle 2s ease-in-out infinite alternate;
+    position: absolute;
 }
 body{
     width: 100%;
@@ -213,9 +214,10 @@ body#page12{
         bottom: 50px;
     }
     100% {
-        right: 50px;
+        bottom: 50px; 
+        right: 50px;  
     }
- }
+}
 
 @keyframes rotate {
     0% {
