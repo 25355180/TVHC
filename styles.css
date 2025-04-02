@@ -99,7 +99,7 @@ img{
     height: auto;
     animation: rock 10s ease-in-out infinite alternate-reverse;
     position: absolute;
-    top:0px;
+    top:0;
 }
 .ground{
     width: 100%;
