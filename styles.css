@@ -44,7 +44,7 @@ body#index{
     min-height: 700px;
     height: 100%;
     width: 40%;
-    font-size: 50px;
+    font-size: 30px;
     background-color: lightblue;
     background-image: radial-gradient(white 5%, transparent 60%);
     background-position: 0 0, 50px 50px;
@@ -52,7 +52,7 @@ body#index{
 }
 body#page1{
 margin: 0;
-font-size: 50px;
+font-size: 30px;
 background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5));
 color: antiquewhite;
 }
@@ -78,7 +78,7 @@ color: antiquewhite;
 }
 
 body#page2{
-    font-size: 50px;
+    font-size: 30px;
     background-color: antiquewhite;
     margin: 0;
 }
