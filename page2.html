@@ -18,7 +18,7 @@
   <img src="caterpillarB.png" class="colin">
   <img src="caterpillarHead.png" class="colin">
   <script>
-    const colins = document.querySelectorAll('colin');
+    const colins = document.querySelectorAll('.colin');
     colins.forEach((colin) => {
         colin.addEventListener('animationend', (event) => {
             if (event.animationName === 'crawl') {
