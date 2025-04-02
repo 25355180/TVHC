@@ -182,6 +182,7 @@ body#page13{
     position: relative;
     left: 400px;
     bottom: 400px;
+    animation: rock 3s ease-in-out infinite;
 }
 .txt{
     z-index: 10;
