@@ -8,12 +8,12 @@
 
     position: absolute;
 }
-.colin:nth-child(odd) {
+.colin:nth-of-type(odd) {
     animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s; 
 }
 
-.colin:nth-child(even) {
+.colin:nth-of-type(even) {
     animation: idle 2s ease-in-out infinite alternate;
 }
 
