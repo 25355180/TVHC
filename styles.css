@@ -73,6 +73,7 @@ img{
     animation: rock 10s ease-in-out infinite alternate-reverse;
     position: absolute;
     bottom:20px;
+    z-index: 1;
 }
 .ground{
     width: 100%;
