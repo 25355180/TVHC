@@ -90,7 +90,7 @@ img{
 .sun{
     width: 55%;
     height: auto;
-    animation: rock 10s ease-in-out infinite alternate-reverse;
+    animation: rock 10s ease-in-out infinite alternate-reverse,up 5s ease-in-out;
     position: relative;
     bottom:0;
 }
@@ -102,7 +102,6 @@ img{
     bottom: 0;
     left: 0;
 }
-
 
 body#page3{
     font-size: 50px;
@@ -241,6 +240,14 @@ body#page12{
     }
     100% {
         left: 63%; 
+    }
+}
+@keyframes up {
+    0% {
+        up: 0;
+    }
+    100% {
+        up: 10%; 
     }
 }
 
