@@ -6,6 +6,7 @@
     margin: 0;
     bottom:30px;
     position: absolute;
+    flex-direction: row;
 }
 .colin:nth-of-type(2n) {
     animation: idle 2s ease-in-out infinite alternate;
