@@ -7,14 +7,11 @@
     bottom:30px;
     position: absolute;
 }
-.colin:nth-child(odd) {
+.colin:nth-of-type(2n) {
     animation: idle 2s ease-in-out infinite alternate;
     animation-delay: 1s; 
 }
 
-.colin:nth-child(even) {
-    animation: idle 2s ease-in-out infinite alternate;
-}
 
 body{
     width: 100%;
