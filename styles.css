@@ -195,16 +195,16 @@ body#page13{
     top: 10%
 }
 #leaf2{
-    top: 20%
+    top: 25%
 }
 #leaf3{
-    top: 30%
-}
-#leaf4{
     top: 40%
 }
+#leaf4{
+    top: 55%
+}
 #leaf5{
-    top: 50%
+    top: 70%
 }
 .txt{
     z-index: 10;
