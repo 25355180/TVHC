@@ -189,8 +189,6 @@ body#page13{
     margin: 0;
     left: 65%;
     animation: rock 3s ease-in-out infinite;
-    float: right;
-    top: 50%;
     z-index: 3;
 }
 
