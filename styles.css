@@ -206,6 +206,13 @@ body#page13{
 #leaf5{
     top: 70%
 }
+.leaf:nth-of-type(2n) {
+    animation: rock 3s ease-in-out infinite;
+}
+.leaf:nth-of-type(2n-1) {
+    animation: rock 3s ease-in-out infinite;
+    animation-delay: 1s;
+}
 .txt{
     z-index: 10;
     width: 100%;
