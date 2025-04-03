@@ -191,7 +191,21 @@ body#page13{
     animation: rock 3s ease-in-out infinite;
     z-index: 3;
 }
-
+#leaf1{
+    top: 10%
+}
+#leaf2{
+    top: 20%
+}
+#leaf3{
+    top: 30%
+}
+#leaf4{
+    top: 40%
+}
+#leaf5{
+    top: 50%
+}
 .txt{
     z-index: 10;
     width: 100%;
