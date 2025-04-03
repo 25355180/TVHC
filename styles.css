@@ -193,6 +193,7 @@ body#page13{
 .leafHolder{
     position: absolute;
     float: right;
+    margin-top: 20%;
 }
 .txt{
     z-index: 10;
