@@ -14,7 +14,7 @@
     height: auto;
     display: inline-flex;
     justify-content: space-evenly;
-    margin: -5;
+    margin: -5px;
     position: relative;
     flex-direction: row;
     bottom: 0;
@@ -185,11 +185,15 @@ body#page13{
     height: auto;
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     margin: 0;
     left: 65%;
     margin-top:50%;
     animation: rock 3s ease-in-out infinite;
+}
+.leafHolder{
+    position: relative;
+    float: right;
 }
 .txt{
     z-index: 10;
