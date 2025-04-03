@@ -184,7 +184,7 @@ body#page13{
     width: 20%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
     margin: 0;
     left: 65%;
