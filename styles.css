@@ -191,6 +191,7 @@ body#page13{
     animation: rock 3s ease-in-out infinite;
     float: right;
     top: 50%;
+    z-index: 3;
 }
 
 .txt{
