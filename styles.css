@@ -189,12 +189,10 @@ body#page13{
     margin: 0;
     left: 65%;
     animation: rock 3s ease-in-out infinite;
-}
-.leafHolder{
-    position: absolute;
     float: right;
-    margin-bottom: 20%;
+    top: 50%;
 }
+
 .txt{
     z-index: 10;
     width: 100%;
