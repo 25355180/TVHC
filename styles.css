@@ -104,7 +104,10 @@ img{
     position: relative;
     bottom:0;
 }
-
+.orange{
+    width: 50%;
+    height: auto;
+}
 .ground{
     width: 100%;
     height: auto;
