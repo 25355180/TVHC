@@ -3,7 +3,7 @@
     height: auto;
     display: inline-flex;
     justify-content: space-evenly;
-    margin: 0;
+    margin: -1;
     position: relative;
     flex-direction: row;
     bottom: 0;
