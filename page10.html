@@ -41,8 +41,22 @@
         ev.target.appendChild(draggedElement);
         
         draggedElement.parentNode.removeChild(draggedElement);
+        checkLeaves();
       }
+    function checkLeaves() {
+      const leaves = document.querySelectorAll(".leaf"); 
+      const container = document.querySelector("#head");
+
+      const allEaten = Array.from(leaves).every(leaf => leaf.parentNode === container);
+
+      if (allEaten) {
+        window.location.href = "page11.html"; 
+      }
+    }
       </script>
+
+
+</script>
       
 </body>
 </html>
