@@ -196,19 +196,19 @@ body#page13{
     bottom: 10%;
 }
 #leaf1{
-    top: 100px;
+    top: 200px;
 }
 #leaf2{
-    top: 300px;
+    top: 400px;
 }
 #leaf3{
-    top: 500px;
+    top: 600px;
 }
 #leaf4{
-    top: 700px;
+    top: 800px;
 }
 #leaf5{
-    top: 900px
+    top: 1000px
 }
 
 .leaf:nth-of-type(2n) {
@@ -218,7 +218,7 @@ body#page13{
     animation: rock 3s ease-in-out infinite;
     animation-delay: 1s;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #leaf1{
         top: 10%;
     }
