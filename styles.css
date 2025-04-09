@@ -196,19 +196,19 @@ body#page13{
     bottom: 10%;
 }
 #leaf1{
-    top: 10%
+    top: 100px
 }
 #leaf2{
-    top: 25%
+    top: 300px
 }
 #leaf3{
-    top: 40%
+    top: 500px
 }
 #leaf4{
-    top: 55%
+    top: 700px
 }
 #leaf5{
-    top: 70%
+    top: 900px
 }
 .leaf:nth-of-type(2n) {
     animation: rock 3s ease-in-out infinite;
