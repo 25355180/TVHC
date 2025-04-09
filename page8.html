@@ -41,10 +41,10 @@
       checkLeaves();
     }
     function checkfood() {
-      const leaves = document.querySelectorAll(".orange"); 
+      const oranges = document.querySelectorAll(".orange"); 
       const container = document.querySelector("#head");
 
-      const allEaten = Array.from(leaves).every(leaf => leaf.parentNode === container);
+      const allEaten = Array.from(oranges).every(orange => orange.parentNode === container);
 
       if (allEaten) {
         window.location.href = "page9.html"; 
