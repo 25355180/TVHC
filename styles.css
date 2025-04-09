@@ -189,8 +189,8 @@ body#page13{
     margin: 0;
     left: 65%;
     z-index: 3;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    top: 10%;
+    bottom: 10%;
 }
 #leaf1{
     top: 10%
