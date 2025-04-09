@@ -189,6 +189,9 @@ body#page13{
     margin: 0;
     left: 65%;
     z-index: 3;
+
+}
+.leafContainer{
     top: 10%;
     bottom: 10%;
 }
