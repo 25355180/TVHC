@@ -8,13 +8,47 @@
   </head>
 <body>
   <p>On Wednesday he ate through three plums. But he was still hungry.</p>
-  <img src="caterpillarB.png" class="colin">
-  <img src="caterpillarA.png" class="colin">
-  <img src="caterpillarB.png" class="colin">
-  <img src="caterpillarA.png" class="colin">
-  <img src="caterpillarB.png" class="colin">
-  <img src="caterpillarHead.png" class="colin">
+  <img src="caterpillarB.png" class="colinStill">
+  <img src="caterpillarA.png" class="colinStill">
+  <img src="caterpillarB.png" class="colinStill">
+  <img src="caterpillarA.png" class="colinStill">
+  <img src="caterpillarB.png" class="colinStill">
+  <img src="caterpillarHead.png" class="colinStill" id="head" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)">
+  <img src="plum.png" class="plum" id="plum1" draggable="true" ondragstart="dragstartHandler(event)">
+  <img src="plum.png" class="plum" id="plum1" draggable="true" ondragstart="dragstartHandler(event)">
+  <img src="plum.png" class="plum" id="plum1" draggable="true" ondragstart="dragstartHandler(event)">
   <img src="ground.png" class="ground">
-    <a href="page7.html">Next page</a>
+
+  <script>
+    function dragstartHandler(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+    }
+    
+    function dragoverHandler(ev) {
+      ev.preventDefault();
+    }
+    
+    function dropHandler(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData("text");
+      const draggedElement = document.getElementById(data);
+      
+      ev.target.appendChild(draggedElement);
+      
+      draggedElement.parentNode.removeChild(draggedElement);
+      checkplum();
+    }
+    function checkplum() {
+      const plums = document.querySelectorAll(".plum"); 
+      const container = document.querySelector("#head");
+
+      const allEaten = Array.from(plums).every(plum => plum.parentNode === container);
+
+      if (allEaten) {
+        window.location.href = "page7.html"; 
+      }
+    }
+  </script>
+  <a href="page7.html">Next page</a>
 </body>
 </html>

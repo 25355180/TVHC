@@ -8,13 +8,45 @@
   </head>
 <body>
   <p>On Monday he ate through one apple. But he was still hungry.</p>
-  <img src="caterpillarB.png" class="colin">
-  <img src="caterpillarA.png" class="colin">
-  <img src="caterpillarB.png" class="colin">
-  <img src="caterpillarA.png" class="colin">
-  <img src="caterpillarB.png" class="colin">
-  <img src="caterpillarHead.png" class="colin">
+  <img src="caterpillarB.png" class="colinStill">
+  <img src="caterpillarA.png" class="colinStill">
+  <img src="caterpillarB.png" class="colinStill">
+  <img src="caterpillarA.png" class="colinStill">
+  <img src="caterpillarB.png" class="colinStill">
+  <img src="caterpillarHead.png" class="colinStill" id="head" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)">
+  <img src="apple.png" class="apple" id="apple1" draggable="true" ondragstart="dragstartHandler(event)">
   <img src="ground.png" class="ground">
-    <a href="page5.html">Next page</a>
+
+  <script>
+    function dragstartHandler(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+    }
+    
+    function dragoverHandler(ev) {
+      ev.preventDefault();
+    }
+    
+    function dropHandler(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData("text");
+      const draggedElement = document.getElementById(data);
+      
+      ev.target.appendChild(draggedElement);
+      
+      draggedElement.parentNode.removeChild(draggedElement);
+      checkapple();
+    }
+    function checkapple() {
+      const apples = document.querySelectorAll(".apple"); 
+      const container = document.querySelector("#head");
+
+      const allEaten = Array.from(apples).every(apple => apple.parentNode === container);
+
+      if (allEaten) {
+        window.location.href = "page5.html"; 
+      }
+    }
+  </script>
+  <a href="page5.html">Next page</a>
 </body>
 </html>
