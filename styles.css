@@ -19,6 +19,10 @@
     flex-direction: row;
     bottom: 0;
 }
+.colinBig{
+    width: 12%;
+    height: auto;
+}
 .colin:nth-of-type(2n) {
     animation: crawl 30s ease-in-out,
     idle 2s ease-in-out infinite alternate 1s;
