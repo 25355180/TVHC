@@ -277,7 +277,7 @@ body#page13{
         up: 0;
     }
     100% {
-        up: 10%; 
+        transform: translateY(-150px);
     }
 }
 
