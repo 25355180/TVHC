@@ -15,6 +15,7 @@
   <img src="caterpillarB.png" class="colinStill">
   <img src="caterpillarHead.png" class="colinStill" id="head" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)">
   <img src="apple.png" class="apple" id="apple1" draggable="true" ondragstart="dragstartHandler(event)">
+  <img src="boot.png" class="boot" id="boot1" draggable="true" ondragstart="dragstartHandler(event)">
   <img src="ground.png" class="ground">
 
   <script>
@@ -34,6 +35,9 @@
       ev.target.appendChild(draggedElement);
       
       draggedElement.parentNode.removeChild(draggedElement);
+      if (draggedElement.classList.contains("boot")) {
+        document.querySelector("#head").id = "sad";
+  }
       checkapple();
     }
     function checkapple() {

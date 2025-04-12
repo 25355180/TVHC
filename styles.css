@@ -100,7 +100,13 @@ img{
     width: 100%;
     height: auto;
 }
-
+.boot{
+    width: 10%;
+    height: auto;
+}
+#sad{
+    background-image: url(caterpillarHeadSad.png);
+}
 .sun{
     width: 55%;
     height: auto;
