@@ -36,7 +36,7 @@
       
       draggedElement.parentNode.removeChild(draggedElement);
       if (draggedElement.classList.contains("boot")) {
-        document.querySelector("#head").id = "sad";
+        beSad();
   }
       checkapple();
     }
@@ -49,6 +49,10 @@
       if (allEaten) {
         window.location.href = "page5.html"; 
       }
+    }
+    function Sad() {
+      const head = document.getElementById("head");
+      head.src = "caterpillarSad.png"; 
     }
   </script>
   <a href="page5.html">Next page</a>
