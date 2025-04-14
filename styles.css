@@ -48,13 +48,13 @@
     z-index: 2;
 }
 #butterflywingl{
-    animation: rockReverse 10s ease-in-out infinite;
+    animation: rockReverse 8s ease-in-out infinite;
     margin: -10px;
     z-index: 1;
     bottom: 30px;
 }
 #butterflywingr{
-    animation: rock 10s ease-in-out infinite;
+    animation: rock 8s ease-in-out infinite;
     margin: -10px;
     z-index: 1;
     bottom: 30px;
