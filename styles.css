@@ -18,7 +18,6 @@
     position: relative;
     flex-direction: row;
     bottom: 0;
-    float: left;
 }
 .colinBig{
     width: 12%;
