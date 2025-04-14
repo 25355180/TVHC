@@ -85,6 +85,7 @@ color: antiquewhite;
 .tree{
     z-index: 2;
     margin-top: 100px;
+    float: right;
 }
 .pg1txt{
     color: antiquewhite;
