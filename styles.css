@@ -46,7 +46,7 @@
     height: auto;
 }
 #butterflywingl{
-    animation: rock 10s ease-in-out infinite reverse;
+    animation: rockReverse 10s ease-in-out infinite
 }
 #butterflywingr{
     animation: rock 10s ease-in-out infinite;
@@ -341,5 +341,16 @@ body#page13{
     }
     100% {
       transform: rotate(5deg);
+    }
+}
+@keyframes rockReverse {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(-5deg);
     }
 }
