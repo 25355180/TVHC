@@ -45,6 +45,9 @@
     width: 5%;
     height: auto;
 }
+#butterflywings{
+    animation: rock 10s ease-in-out infinite alternate-reverse;
+}
 .colin:nth-of-type(2n) {
     animation: crawl 30s ease-in-out,
     idle 2s ease-in-out infinite alternate 1s;
