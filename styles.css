@@ -45,7 +45,10 @@
     width: 5%;
     height: auto;
 }
-#butterflywings{
+#butterflywingl{
+    animation: rock 10s ease-in-out infinite;
+}
+#butterflywingr{
     animation: rock 10s ease-in-out infinite alternate-reverse;
 }
 .colin:nth-of-type(2n) {
