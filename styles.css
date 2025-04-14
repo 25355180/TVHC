@@ -31,7 +31,7 @@
     opacity: 90%;
 }
 .butterfly{
-    width: 12%;
+    width: 20%;
     height: auto;
     display: inline-flex;
     justify-content: space-evenly;
@@ -40,6 +40,10 @@
     flex-direction: row;
     bottom: 0;
     opacity: 90%;
+}
+#butterflybody{
+    width: 5%;
+    height: auto;
 }
 .colin:nth-of-type(2n) {
     animation: crawl 30s ease-in-out,
