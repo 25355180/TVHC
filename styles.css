@@ -46,10 +46,12 @@
     height: auto;
 }
 #butterflywingl{
-    animation: rock 10s ease-in-out infinite;
+    animation: rock 10s ease-in-out infinite alternate-reverse;
 }
 #butterflywingr{
-    animation: rock 10s ease-in-out infinite alternate-reverse;
+    animation: rock 10s ease-in-out infinite;
+    transform-origin: center; 
+    transform: scaleX(-1);
 }
 .colin:nth-of-type(2n) {
     animation: crawl 30s ease-in-out,
