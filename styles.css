@@ -147,7 +147,7 @@ img{
     width: 100%;
     height: auto;
     position: relative;
-    bottom: 0;
+    margin-bottom: 50px;
     left: 0;
 }
 
@@ -249,7 +249,7 @@ body#page13{
     animation: rock 3s ease-in-out infinite;
     animation-delay: 1s;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
     #leaf1{
         top: 10%;
     }
