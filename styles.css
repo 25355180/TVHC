@@ -153,6 +153,8 @@ img{
     width: 10%;
     height: auto;
     float: right;
+    position: relative;
+    bottom: 0;
 }
 
 .sun{
