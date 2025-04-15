@@ -192,9 +192,10 @@ img{
     left: 0;
 }
 .bigTree{
-    width: 30%;
+    width: 50%;
     height: auto;
     position: relative;
+    top: 100px;
 }
 
 body#page3{
