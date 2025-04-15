@@ -155,6 +155,8 @@ img{
     float: right;
     position: absolute;
     bottom: 0;
+    right: 30%;
+    bottom: 10%;
 }
 
 .sun{
