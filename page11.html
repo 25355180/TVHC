@@ -15,6 +15,13 @@
   <img src="caterpillarB.png" class="colinBig">
   <img src="caterpillarHeadSad.png" class="colinBig">
   <img src="ground.png" class="ground">
-    <a href="page12.html">Next page</a>
+  <a href="page12.html">Next page</a>
+  <script>
+    document.getElementById("cocoon").addEventListener("click", function() {
+    let caterpillar = document.getElementById("caterpillar");
+    caterpillar.style.display = (caterpillar.style.display === "none" || caterpillar.style.display === "") ? "block" : "none";
+});
+
+  </script>
 </body>
 </html>
