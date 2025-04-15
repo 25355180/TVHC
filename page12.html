@@ -10,21 +10,12 @@
   <p class="txt">He built a small house, called a cocoon, around himself. He stayed inside for more than two weeks. 
     Then he nibbled a hole in the cocoon, pushed his way out and...
   </p>
-<img src="cocoon.png" class="cocoon" id="cocoon">
-<div class="caterpillar" id="caterpillar">
-  <img src="caterpillarB.png" class="colinStill">
-  <img src="caterpillarA.png" class="colinStill">
-  <img src="caterpillarB.png" class="colinStill">
-  <img src="caterpillarA.png" class="colinStill">
-  <img src="caterpillarB.png" class="colinStill">
-  <img src="caterpillarHead.png" class="colinStill" id="head">
-</div>
+  <img src="cocoon.png" class="cocoon" id="cocoon">
   <img src="ground.png" class="ground">
   <script>
     document.getElementById("cocoon").addEventListener("click", function() {
-      let caterpillar = document.getElementById("caterpillar");
-      caterpillar.style.display = (caterpillar.style.display === "none" || caterpillar.style.display === "") ? "inline-block" : "none";
-    });
+      this.src = "cocoonOpen.png";
+    })
   </script>
     <a href="page13.html">Next page</a>
 </body>
