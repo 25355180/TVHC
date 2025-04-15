@@ -308,6 +308,7 @@ body#page13{
     z-index: 10;
     width: 100%;
     height: auto;
+    font-size: 20px;
 }
 @keyframes idle {
     0%, 50%{
