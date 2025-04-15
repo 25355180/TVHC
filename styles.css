@@ -63,8 +63,11 @@
     width: 20%;
     height: auto;
     animation: rock 1s ease-in-out infinite;
+    cursor: pointer;
 }
-
+.caterpillar{
+    display: none; 
+}
 .colin:nth-of-type(2n) {
     animation: crawl 30s ease-in-out,
     idle 2s ease-in-out infinite alternate 1s;
