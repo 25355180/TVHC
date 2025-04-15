@@ -188,6 +188,11 @@ img{
     bottom: 0;
     left: 0;
 }
+.bigTree{
+    width: 10%;
+    height: auto;
+    position: relative;
+}
 
 body#page3{
     font-size: 30px;
