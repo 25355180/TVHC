@@ -170,7 +170,7 @@ img{
     height: auto;
 }
 .plum{
-    width: 10%;
+    width: 5%;
     height: auto;
 }
 .pear{
@@ -180,6 +180,9 @@ img{
 .apple{
     width: 10%;
     height: auto;
+    position: relative;
+    right: 100px;
+    bottom: 200px;
 }
 .ground{
     width: 100%;
@@ -189,7 +192,7 @@ img{
     left: 0;
 }
 .bigTree{
-    width: 10%;
+    width: 30%;
     height: auto;
     position: relative;
 }
