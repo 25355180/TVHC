@@ -183,13 +183,14 @@ img{
 .plum{
     width: 5%;
     height: auto;
-    right: 23%;
+    right: 27%;
     z-index: 2;
     position: absolute;
     margin-top: 10%;
 }
 #plum2{
-    right: 35%;
+    right: 38%;
+    margin-top: 8%;
 }
 #plum3{
     right: 54%;
