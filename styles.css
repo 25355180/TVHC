@@ -144,11 +144,10 @@ img{
 .boot{
     width: 10%;
     height: auto;
-    float: right;
-    position: absolute;
     bottom: 0;
     right: 25%;
-    margin-bottom: 8%;
+    margin-bottom: 15%;
+    z-index: 2;
 }
 
 .sun{
@@ -179,7 +178,8 @@ img{
     height: auto;
     position: absolute;
     right: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 18%;
+    z-index: 2;
 }
 .ground{
     width: 100%;
