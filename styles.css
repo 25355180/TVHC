@@ -155,8 +155,27 @@ img{
     bottom:0;
 }
 .orange{
-    width: 10%;
+    width: 8%;
     height: auto;
+    right: 20%;
+    z-index: 2;
+    position: absolute;
+    margin-top: 10%;
+}
+#orange1{
+    right: 20%;
+}
+#orange2{
+    right: 35%;
+}
+#orange3{
+    right: 50%;
+}
+#orange4{
+    right: 20%;
+}
+#orange5{
+    right: 50%;
 }
 .strawberry{
     width: 8%;
@@ -174,7 +193,7 @@ img{
     right: 35%;
 }
 #plum3{
-    right: 45%;
+    right: 50%;
 }
 .pear{
     width: 8%;
