@@ -176,7 +176,7 @@ img{
     right: 30%;
     z-index: 2;
     position: absolute;
-    margin-bottom: 20%;
+    margin-bottom: 18%;
 }
 .ground{
     width: 100%;
@@ -196,7 +196,7 @@ img{
 .boot{
     width: 10%;
     height: auto;
-    right: 35%;
+    right: 15%;
     z-index: 2;
     position: absolute;
     margin-bottom: 0%;
