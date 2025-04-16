@@ -169,6 +169,14 @@ img{
 .pear{
     width: 10%;
     height: auto;
+    height: auto;
+    right: 25%;
+    z-index: 2;
+    position: absolute;
+    margin-top: 10%;
+}
+#pear2{
+    right: 40%;
 }
 .apple{
     width: 10%;
@@ -199,7 +207,7 @@ img{
     right: 15%;
     z-index: 2;
     position: absolute;
-    margin-top: 33%;
+    margin-top: 31%;
 }
 .body.clearfix::after {
     content: "";
