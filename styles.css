@@ -279,23 +279,23 @@ img{
 
 #leaf1{
     right: 5%;
-    margin-bottom: 10%;
+    margin-top: 10%;
 }
 #leaf2{
     right: 15%;
-    margin-bottom: 20%;
+    margin-top: 20%;
 }
 #leaf3{
     right: 5%;
-    margin-bottom: 30%;
+    margin-top: 30%;
 }
 #leaf4{
     right: 15%;
-    margin-bottom: 40%;
+    margin-top: 40%;
 }
 #leaf5{
     right: 5%;
-    margin-bottom: 50%;
+    margin-top: 50%;
 }
 .leaf:nth-of-type(2n) {
     animation: rock 3s ease-in-out infinite;
