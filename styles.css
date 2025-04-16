@@ -151,10 +151,9 @@ img{
     width: 10%;
     height: auto;
     bottom: 0;
-    right: 35%;
+    right: 20%;
     z-index: 2;
     position: absolute;
-    top: 50px;
 }
 
 .sun{
@@ -183,8 +182,10 @@ img{
 .apple{
     width: 10%;
     height: auto;
-    right: 25%;
+    right: 30%;
     z-index: 2;
+    margin-top: 10%;
+    position: absolute;
 }
 .ground{
     width: 100%;
