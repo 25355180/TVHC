@@ -100,12 +100,12 @@ h1{
 body{
     width: 100%;
     height: auto;
+    font-size: 30px;
+    background-color: antiquewhite;
+    margin: 0;
+    color: black;
 }
 body#index{
-    min-height: 700px;
-    height: 100%;
-    width: 40%;
-    font-size: 30px;
     background-color: lightblue;
     background-image: radial-gradient(white 5%, transparent 60%);
     background-position: 0 0, 50px 50px;
@@ -113,10 +113,8 @@ body#index{
 }
 
 body#page1{
-margin: 0;
-font-size: 30px;
-background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5));
-color: antiquewhite;
+    background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5));
+    color: antiquewhite;
 }
 .tree{
     z-index: 2;
@@ -139,12 +137,6 @@ color: antiquewhite;
     z-index: 1;
     position: absolute;
 }
-
-body#page2{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
 img{
     width: 100%;
     height: auto;
@@ -155,8 +147,8 @@ img{
     float: right;
     position: absolute;
     bottom: 0;
-    margin-right: 25%;
-    margin-bottom: 8%;
+    right: 25%;
+    bottom: 8%;
 }
 
 .sun{
@@ -195,11 +187,14 @@ img{
     position: relative;
     bottom: 0;
     left: 0;
+    z-index: 1;
 }
 .bigTree{
-    width: 50%;
+    align-self: center;
     height: auto;
     position: relative;
+    bottom: 0;
+    z-index: 2;
 }
 
 body#page3{
