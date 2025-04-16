@@ -176,7 +176,7 @@ img{
     right: 30%;
     z-index: 2;
     position: absolute;
-    margin-top: 18%;
+    margin-top: 10%;
 }
 .ground{
     width: 100%;
@@ -200,6 +200,7 @@ img{
     z-index: 2;
     position: absolute;
     bottom: 0;
+    margin-top: 35%;
 }
 .body.clearfix::after {
     content: "";
