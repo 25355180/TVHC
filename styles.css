@@ -195,6 +195,7 @@ img{
     position: relative;
     bottom: 0;
     z-index: 2;
+    width: 50%;
 }
 
 .body.clearfix::after {
