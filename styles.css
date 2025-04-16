@@ -153,7 +153,8 @@ img{
     bottom: 0;
     margin-right: 35%;
     z-index: 2;
-    position: relative;
+    position: absolute;
+    top: 50px;
 }
 
 .sun{
