@@ -178,6 +178,26 @@ img{
 .strawberry{
     width: 8%;
     height: auto;
+    right: 30%;
+    z-index: 2;
+    position: absolute;
+    margin-top: 10%;
+}
+#strawberry1{
+    right: 40%;
+    margin-top: 7%;
+}
+#strawberry2{
+    right: 50%;
+    margin-top: 7%;
+}
+#strawberry3{
+    right: 60%;
+    margin-top: 7%;
+}
+#strawberry4{
+    right: 70%;
+    margin-top: 7%;
 }
 .plum{
     width: 5%;
@@ -228,6 +248,13 @@ img{
     width: 50%;
     position: relative;
 }
+.bush{
+    height: auto;
+    bottom: 0;
+    z-index: 1;
+    width: 50%;
+    position: relative;
+}
 .boot{
     width: 10%;
     height: auto;
@@ -251,24 +278,26 @@ img{
     left: 65%;
     z-index: 3;
 }
-.leafContainer{
-    top: 10%;
-    bottom: 10%;
-}
+
 #leaf1{
-    top: 200px;
+    right: 5%;
+    margin-top: 10%;
 }
 #leaf2{
-    top: 400px;
+    right: 15%;
+    margin-top: 20%;
 }
 #leaf3{
-    top: 600px;
+    right: 5%;
+    margin-top: 30%;
 }
 #leaf4{
-    top: 800px;
+    right: 15%;
+    margin-top: 40%;
 }
 #leaf5{
-    top: 1000px
+    right: 5%;
+    margin-top: 50%;
 }
 .leaf:nth-of-type(2n) {
     animation: rock 3s ease-in-out infinite;
