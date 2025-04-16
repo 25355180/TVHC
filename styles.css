@@ -297,6 +297,10 @@ img{
     right: 5%;
     margin-top: 50%;
 }
+#pg10tree{
+    width: 80%;
+    height: auto;
+}
 .leaf:nth-of-type(2n) {
     animation: rock 3s ease-in-out infinite;
 }
