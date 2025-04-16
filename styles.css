@@ -165,10 +165,19 @@ img{
 .plum{
     width: 5%;
     height: auto;
+    right: 20%;
+    z-index: 2;
+    position: absolute;
+    margin-top: 10%;
+}
+#plum2{
+    right: 35%;
+}
+#plum3{
+    right: 45%;
 }
 .pear{
-    width: 10%;
-    height: auto;
+    width: 8%;
     height: auto;
     right: 25%;
     z-index: 2;
