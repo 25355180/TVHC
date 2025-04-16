@@ -20,7 +20,7 @@
     position: relative;
     flex-direction: row;
     bottom: 0;
-    top: 1%;
+    margin-top: 50%;
     z-index: 4;
 }
 .colinStill{
