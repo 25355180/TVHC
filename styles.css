@@ -122,6 +122,7 @@ body#page1{
 .tree{
     z-index: 2;
     float: right;
+    position: relative;
 }
 .pg1txt{
     color: antiquewhite;
