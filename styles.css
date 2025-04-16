@@ -271,11 +271,7 @@ img{
 .leaf{
     width: 20%;
     height: auto;
-    display: flex;
-    flex-direction: column;
     position: absolute;
-    margin: 0;
-    left: 65%;
     z-index: 3;
 }
 
@@ -306,23 +302,7 @@ img{
     animation: rock 3s ease-in-out infinite;
     animation-delay: 1s;
 }
-@media screen and (max-width: 950px) {
-    #leaf1{
-        top: 10%;
-    }
-    #leaf2{
-        top: 15%;
-    }
-    #leaf3{
-        top: 20%;
-    }
-    #leaf4{
-        top: 25%;
-    }
-    #leaf5{
-        top: 30%;
-    }
-}
+
 .txt{
     z-index: 10;
     width: 100%;
