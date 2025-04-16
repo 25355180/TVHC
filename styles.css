@@ -199,7 +199,6 @@ img{
 .bigTree{
     align-self: center;
     height: auto;
-    position: relative;
     bottom: 0;
     z-index: 1;
     width: 50%;
