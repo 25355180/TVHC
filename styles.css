@@ -11,6 +11,18 @@
     top: 10px;
     z-index: 4;
 }
+.colinStill10{
+    width: 6%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: -5px;
+    position: relative;
+    flex-direction: row;
+    bottom: 0;
+    top: 1%;
+    z-index: 4;
+}
 .colinStill{
     width: 6%;
     height: auto;
@@ -310,7 +322,6 @@ img{
 }
 #leaf5{
     right: 6%;
-    margin-top: 60%;
 }
 #pg10tree{
     width: 60%;
