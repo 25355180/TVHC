@@ -182,9 +182,7 @@ img{
 .apple{
     width: 10%;
     height: auto;
-
     right: 25%;
-    margin-bottom: 8%;
     z-index: 2;
 }
 .ground{
@@ -202,7 +200,6 @@ img{
     bottom: 0;
     z-index: 1;
     width: 50%;
-    top: 60px
 }
 
 .body.clearfix::after {
