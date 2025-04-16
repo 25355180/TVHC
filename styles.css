@@ -20,7 +20,7 @@
     position: relative;
     flex-direction: row;
     bottom: 0;
-    top: 10px;
+    top: 1%;
     z-index: 4;
 }
 .colinBig{
@@ -279,23 +279,23 @@ img{
 
 #leaf1{
     right: 5%;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 #leaf2{
     right: 15%;
-    margin-top: 20%;
+    margin-top: 30%;
 }
 #leaf3{
     right: 5%;
-    margin-top: 30%;
+    margin-top: 40%;
 }
 #leaf4{
     right: 15%;
-    margin-top: 40%;
+    margin-top: 50%;
 }
 #leaf5{
     right: 5%;
-    margin-top: 50%;
+    margin-top: 60%;
 }
 #pg10tree{
     width: 80%;
