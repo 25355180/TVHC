@@ -187,13 +187,11 @@ img{
     z-index: 1;
 }
 .bigTree{
-    align-self: center;
     height: auto;
     bottom: 0;
     z-index: 1;
     width: 50%;
     position: relative;
-    display: flex;
 }
 .boot{
     width: 10%;
