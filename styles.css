@@ -157,7 +157,7 @@ img{
 .orange{
     width: 8%;
     height: auto;
-    right: 25%;
+    right: 27%;
     z-index: 2;
     position: absolute;
     margin-top: 8%;
@@ -167,7 +167,7 @@ img{
 }
 #orange3{
     right: 50%;
-    margin-top: 6%;
+    margin-top: 5%;
 }
 #orange4{
     right: 25%;
