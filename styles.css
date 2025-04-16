@@ -147,16 +147,6 @@ img{
     width: 100%;
     height: auto;
 }
-.boot{
-    width: 10%;
-    height: auto;
-    bottom: 0;
-    left: 20%;
-    z-index: 2;
-    position: relative;
-    margin-top: 35%;
-}
-
 .sun{
     width: 55%;
     height: auto;
@@ -202,8 +192,18 @@ img{
     bottom: 0;
     z-index: 1;
     width: 50%;
+    position: relative;
+    display: flex;
 }
-
+.boot{
+    width: 10%;
+    height: auto;
+    bottom: 0;
+    left: 20%;
+    z-index: 2;
+    position: absolute;
+    margin-top: 35%;
+}
 .body.clearfix::after {
     content: "";
     display: block;
