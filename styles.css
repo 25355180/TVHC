@@ -151,9 +151,8 @@ img{
     width: 10%;
     height: auto;
     bottom: 0;
-    right: 35%;
+    margin-right: 35%;
     z-index: 2;
-    top: 50px;
     position: relative;
 }
 
