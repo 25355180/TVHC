@@ -50,16 +50,16 @@
 #butterflybody{
     width: 4%;
     height: auto;
-    z-index: 2;
+    z-index: 3;
 }
 #butterflywingl{
     animation: rockReverse 8s ease-in-out infinite;
-    z-index: 1;
+    z-index: 2;
     bottom: 5%;
 }
 #butterflywingr{
     animation: rock 8s ease-in-out infinite;
-    z-index: 1;
+    z-index: 2;
     bottom: 5%;
 }
 .cocoon{
