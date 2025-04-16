@@ -148,7 +148,7 @@ img{
     position: absolute;
     bottom: 0;
     right: 25%;
-    bottom: 8%;
+    margin-bottom: 8%;
 }
 
 .sun{
@@ -177,8 +177,8 @@ img{
 .apple{
     width: 10%;
     height: auto;
-    position: relative;
-    margin-right: 20%;
+    position: absolute;
+    right: 20%;
     margin-bottom: 20%;
 }
 .ground{
@@ -197,61 +197,6 @@ img{
     z-index: 2;
 }
 
-body#page3{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page4{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page5{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page6{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page7{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page8{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page9{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page10{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page11{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page12{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
-body#page13{
-    font-size: 30px;
-    background-color: antiquewhite;
-    margin: 0;
-}
 .body.clearfix::after {
     content: "";
     display: block;
@@ -266,7 +211,6 @@ body#page13{
     margin: 0;
     left: 65%;
     z-index: 3;
-
 }
 .leafContainer{
     top: 10%;
@@ -287,7 +231,6 @@ body#page13{
 #leaf5{
     top: 1000px
 }
-
 .leaf:nth-of-type(2n) {
     animation: rock 3s ease-in-out infinite;
 }
@@ -316,7 +259,7 @@ body#page13{
     z-index: 10;
     width: 100%;
     height: auto;
-    font-size: 20px;
+    font-size: 30px;
 }
 @keyframes idle {
     0%, 50%{
@@ -342,7 +285,6 @@ body#page13{
         transform: translateY(-150px);
     }
 }
-
 @keyframes rotate {
     0% {
       transform: rotate(0deg);
