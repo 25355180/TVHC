@@ -145,8 +145,7 @@ img{
     width: 10%;
     height: auto;
     bottom: 0;
-    right: 25%;
-    margin-bottom: 15%;
+    right: 35%;
     z-index: 2;
 }
 
@@ -177,8 +176,8 @@ img{
     width: 10%;
     height: auto;
     position: absolute;
-    right: 20%;
-    margin-bottom: 18%;
+    right: 25%;
+    margin-bottom: 12%;
     z-index: 2;
 }
 .ground{
@@ -194,8 +193,9 @@ img{
     height: auto;
     position: relative;
     bottom: 0;
-    z-index: 2;
+    z-index: 1;
     width: 50%;
+    top: 60px
 }
 
 .body.clearfix::after {
