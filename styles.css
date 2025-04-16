@@ -70,14 +70,14 @@
 }
 
 .colin:nth-of-type(2n) {
-    animation: crawl 30s ease-in-out,
+    animation: crawl 20s ease-in-out,
     idle 2s ease-in-out infinite alternate 1s;
 }
 .colin:nth-last-child(){
     opacity: 0;
 }
 .colin:nth-of-type(2n-1) {
-    animation: crawl 30s ease-in-out, idle 2s ease-in-out infinite alternate;
+    animation: crawl 20s ease-in-out, idle 2s ease-in-out infinite alternate;
 }
 h1{
     top:0;
@@ -160,6 +160,8 @@ img{
     z-index: 2;
     position: absolute;
     margin-top: 8%;
+    animation: rock 3s ease-in-out infinite;
+    animation-delay: 1s;
 }
 #orange2{
     right: 38%;
@@ -168,6 +170,7 @@ img{
 #orange3{
     right: 50%;
     margin-top: 5%;
+    animation-delay: 1s;
 }
 #orange4{
     right: 25%;
@@ -176,6 +179,7 @@ img{
 #orange5{
     right: 55%;
     margin-top: 18%;
+    animation-delay: 1s;
 }
 .strawberry{
     width: 8%;
@@ -184,10 +188,12 @@ img{
     z-index: 2;
     position: absolute;
     margin-top: 10%;
+    animation: rock 3s ease-in-out infinite;
 }
 #strawberry1{
     right: 45%;
     margin-top: 7%;
+    animation-delay: 1s;
 }
 #strawberry2{
     right: 27%;
@@ -196,6 +202,7 @@ img{
 #strawberry3{
     right: 22%;
     margin-top: 20%;
+    animation-delay: 1s;
 }
 #strawberry4{
     right: 50%;
@@ -208,10 +215,13 @@ img{
     z-index: 2;
     position: absolute;
     margin-top: 10%;
+    animation: rock 3s ease-in-out infinite;
+
 }
 #plum2{
     right: 38%;
     margin-top: 7%;
+    animation-delay: 1s;
 }
 #plum3{
     right: 54%;
@@ -223,9 +233,12 @@ img{
     z-index: 2;
     position: absolute;
     margin-top: 10%;
+    animation: rock 3s ease-in-out infinite;
+
 }
 #pear2{
     right: 40%;
+    animation-delay: 1s;
 }
 .apple{
     width: 10%;
@@ -234,6 +247,8 @@ img{
     z-index: 2;
     position: absolute;
     margin-top: 10%;
+    animation: rock 3s ease-in-out infinite;
+    animation-delay: 1s;
 }
 .ground{
     width: 100%;
