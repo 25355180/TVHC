@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <audio id="audio" src="indexReading.mp3"></audio>
   </head>
 <body id="index">
     <h1>The Very Hungry Catterpillar</h1>
     <h2>By Eric Carle</h2>
+    <p>Click on the text to hear it!</p>
 
     <img src="caterpillarB.png" class="colinTitle">
     <img src="caterpillarA.png" class="colinTitle">
@@ -20,5 +22,12 @@
     <img src="caterpillarB.png" class="colinTitle">
     <img src="caterpillarHead.png" class="colinTitle" id="head">
     <a href="page1.html" id="title">Start reading</a>
+    <script>
+      document.querySelectorAll("h1, h2").forEach(element => {
+        element.addEventListener("click", function() {
+          document.getElementById("audio").play();
+        });
+      });
+    </script>
 </body>
 </html>
