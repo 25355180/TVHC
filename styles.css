@@ -125,6 +125,7 @@ a{
     color: black;
     position: relative;
     text-decoration: none;
+    float: right;
 }
 .pg1a{
     color: antiquewhite;
