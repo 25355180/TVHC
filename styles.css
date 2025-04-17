@@ -320,7 +320,7 @@ img{
 }
 #chorizo{
     right: 40%;
-    width: 5%;
+    width: 4%;
 }
 #lolly{
     right: 50%;
@@ -338,7 +338,7 @@ img{
 }
 #pickle{
     right: 40%;
-    width: 5%;
+    width: 4%;
     margin-top: 3%;
 }
 #cheese{
@@ -353,6 +353,7 @@ img{
 #pie{
     right: 55%;
     width: 6%;
+    margin-top: 15%;
 }
 .body.clearfix::after {
     content: "";
