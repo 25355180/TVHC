@@ -217,7 +217,7 @@ img{
 .orange{
     width: 8%;
     height: auto;
-    right: 25%;
+    right: 23%;
     z-index: 2;
     position: absolute;
     margin-top: 8%;
@@ -225,20 +225,20 @@ img{
     animation-delay: 1s;
 }
 #orange2{
-    right: 36%;
+    right: 34%;
     margin-top: 15%;
 }
 #orange3{
-    right: 48%;
+    right: 46%;
     margin-top: 5%;
     animation-delay: 1s;
 }
 #orange4{
-    right: 23%;
+    right: 21%;
     margin-top: 18%;
 }
 #orange5{
-    right: 53%;
+    right: 51%;
     margin-top: 18%;
     animation-delay: 1s;
 }
@@ -252,7 +252,7 @@ img{
     animation: rock 3s ease-in-out infinite;
 }
 #strawberry1{
-    right: 41%;
+    right: 40%;
     margin-top: 7%;
     animation-delay: 1s;
 }
@@ -266,7 +266,7 @@ img{
     animation-delay: 1s;
 }
 #strawberry4{
-    right: 47%;
+    right: 45%;
     margin-top: 20%;
 }
 .plum{
@@ -285,7 +285,7 @@ img{
     animation-delay: 1s;
 }
 #plum3{
-    right: 50%;
+    right: 47%;
 }
 .pear{
     width: 8%;
