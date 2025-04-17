@@ -216,7 +216,7 @@ img{
 .orange{
     width: 8%;
     height: auto;
-    right: 23%;
+    right: 27%;
     z-index: 2;
     position: absolute;
     margin-top: 8%;
@@ -224,54 +224,54 @@ img{
     animation-delay: 1s;
 }
 #orange2{
-    right: 34%;
+    right: 38%;
     margin-top: 15%;
 }
 #orange3{
-    right: 46%;
+    right: 50%;
     margin-top: 5%;
     animation-delay: 1s;
 }
 #orange4{
-    right: 21%;
+    right: 25%;
     margin-top: 18%;
 }
 #orange5{
-    right: 51%;
+    right: 55%;
     margin-top: 18%;
     animation-delay: 1s;
 }
 .strawberry{
     width: 8%;
     height: auto;
-    right: 27%;
+    right: 30%;
     z-index: 2;
     position: absolute;
     margin-top: 10%;
     animation: rock 3s ease-in-out infinite;
 }
 #strawberry1{
-    right: 40%;
+    right: 45%;
     margin-top: 7%;
     animation-delay: 1s;
 }
 #strawberry2{
-    right: 24%;
+    right: 27%;
     margin-top: 7%;
 }
 #strawberry3{
-    right: 19%;
+    right: 22%;
     margin-top: 20%;
     animation-delay: 1s;
 }
 #strawberry4{
-    right: 45%;
+    right: 50%;
     margin-top: 20%;
 }
 .plum{
     width: 5%;
     height: auto;
-    right: 23%;
+    right: 27%;
     z-index: 2;
     position: absolute;
     margin-top: 10%;
@@ -279,12 +279,12 @@ img{
 
 }
 #plum2{
-    right: 34%;
+    right: 38%;
     margin-top: 7%;
     animation-delay: 1s;
 }
 #plum3{
-    right: 47%;
+    right: 54%;
 }
 .pear{
     width: 8%;
@@ -357,51 +357,51 @@ img{
     animation: rock 3s ease-in-out infinite;
 }
 #melon{
-    right: 17%;
+    right: 21%;
     width: 6%;
     animation-delay: 1s;
 }
 #muffin{
-    right: 26%;
+    right: 30%;
 }
 #chorizo{
-    right: 38%;
+    right: 42%;
     width: 4%;
     animation-delay: 1s;
 }
 #lolly{
-    right: 46%;
+    right: 50%;
     width: 6%;
 }
 #cake{
-    right: 46%;
+    right: 50%;
     width: 6%;
     margin-top: 3%;
     animation-delay: 1s;
 }
 #pie{
-    right: 9%;
+    right: 59%;
     width: 5%;
     margin-top: 3%;
 }
 #pickle{
-    right: 36%;
+    right: 40%;
     width: 4%;
     margin-top: 3%;
     animation-delay: 1s;
 }
 #cheese{
-    right: 26%;
+    right: 30%;
     width: 6%;
     margin-top: 3%;
 }
 #sausage{
-    right: 1%;
+    right: 21%;
     margin-top: 3%;
     animation-delay: 1s;
 }
 #icecream{
-    right: 8%;
+    right: 57%;
     width: 5%;
     margin-top: 13%;
     animation-delay: 1s;
