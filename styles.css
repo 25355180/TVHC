@@ -99,6 +99,7 @@ a{
     bottom: 0;
     position: relative;
     text-decoration: none;
+    outline: 1px solid antiquewhite;
 }
 .pg1a{
     color: antiquewhite;
