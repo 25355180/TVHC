@@ -351,8 +351,8 @@ img{
     margin-top: 3%;
 }
 #pie{
-    right: 10%;
-    margin-top: 3%;
+    right: 55%;
+    width: 6%;
 }
 .body.clearfix::after {
     content: "";
