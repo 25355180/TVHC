@@ -22,9 +22,18 @@
     margin-top: 50%;
     z-index: 4;
 }
-#caterpillar {
+.colin2{
+    width: 6%;
+    height: auto;
+    justify-content: space-evenly;
+    margin: -5px;
+    position: relative;
+    flex-direction: row;
+    bottom: 0;
+    opacity: 90%;
+    z-index: 4;
     display: none;
-}  
+}
 .colinStill{
     width: 6%;
     height: auto;
