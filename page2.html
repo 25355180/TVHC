@@ -12,15 +12,19 @@
   </head>
 <body id="page2"><!-- body of the page -->
 
-  <img src="sun.png" class="sun">
+  <img src="sun.png" class="sun" alt="an image of the sun">
   <p class="txt">One sunday morning the warm sun came up and - pop! - Out of the egg came a very tiny and very hungry caterpillar. <a href="page3.html">Next page</a></p>
+    <!-- text and links to next page -->
   <img src="egg.png" id="egg">
-  <img src="caterpillarB.png" class="colin2">
-  <img src="caterpillarA.png" class="colin2">
-  <img src="caterpillarB.png" class="colin2">
-  <img src="caterpillarA.png" class="colin2">
-  <img src="caterpillarB.png" class="colin2">
-  <img src="caterpillarHead.png" class="colin2">
+  <img src="caterpillarB.png" class="colin2" alt="a segment of the caterpillar">
+  <img src="caterpillarA.png" class="colin2" alt="a segment of the caterpillar">
+  <img src="caterpillarB.png" class="colin2" alt="a segment of the caterpillar">
+  <img src="caterpillarA.png" class="colin2" alt="a segment of the caterpillar">
+  <img src="caterpillarB.png" class="colin2" alt="a segment of the caterpillar">
+  <img src="caterpillarHead.png" class="colin2" alt="the caterpillars head">
+  <!-- the caterpillar -->
+  <img src="ground.png" class="ground" alt="image of the ground">
+  <!-- background images that make up the page-->
   <script>
     const colins = document.querySelectorAll('.colin2');
     colins.forEach((colin2) => {
@@ -28,13 +32,13 @@
             if (event.animationName === 'crawl') {
                 window.location.href = 'page3.html';
             }
-        });
+        });//page advances once crawl animation has been completed
     });
     document.getElementById("egg").addEventListener("click", function() {
-      this.src = "eggCrack.png";
+      this.src = "eggCrack.png";//switches egg image to eggcrack when clicked
       this.style.animation = "none";
       document.querySelectorAll(".colin2").forEach(caterpillar => {
-        caterpillar.style.display = "inline-flex";
+        caterpillar.style.display = "inline-flex"; //replaces caterpillar style from none to inline flex which makes it appear
     })})
     document.querySelectorAll("p, a").forEach(element => {
       element.addEventListener("click", function() {
@@ -44,6 +48,5 @@
     //  selects all p and a elements on the page and makes the audio play when they are clicked
 
   </script>
-  <img src="ground.png" class="ground">
 </body>
 </html>

@@ -13,18 +13,21 @@
 <body><!-- body of the page -->
 
   <p class="txt">On Wednesday he ate through three plums. But he was still hungry. <a href="page7.html">Next page</a></p>
+   <!-- text and links to next page -->
   <img src="caterpillarB.png" class="colinStill">
   <img src="caterpillarA.png" class="colinStill">
   <img src="caterpillarB.png" class="colinStill">
   <img src="caterpillarA.png" class="colinStill">
   <img src="caterpillarB.png" class="colinStill">
   <img src="caterpillarHead.png" class="colinStill" id="head" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)">
+  <!-- the caterpillar -->
   <img src="plum.png" class="plum" id="plum1" draggable="true" ondragstart="dragstartHandler(event)">
   <img src="plum.png" class="plum" id="plum2" draggable="true" ondragstart="dragstartHandler(event)">
   <img src="plum.png" class="plum" id="plum3" draggable="true" ondragstart="dragstartHandler(event)">
+  <!--elements you can feed the caterpillar-->
   <img src="bigTree.png" class="bigTree" alt="image of the tree the fruit is in">
-  <img src="ground.png" class="ground">
-
+  <img src="ground.png" class="ground" alt="image of the ground">
+  <!-- background images that make up the page-->
   <script>
     function dragstartHandler(ev) {
       ev.dataTransfer.setData("text", ev.target.id);
@@ -51,7 +54,7 @@
       const allEaten = Array.from(plums).every(plum => plum.parentNode === container);
 
       if (allEaten) {
-        window.location.href = "page7.html"; 
+        window.location.href = "page7.html"; //once all elements with class apple have been eaten the page advances
       }
     }
     document.querySelectorAll("p, a").forEach(element => {

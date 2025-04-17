@@ -13,17 +13,20 @@
 <body><!-- body of the page -->
 
   <p class="txt">On Tuesday he ate through two pears. But he was still hungry. <a href="page6.html">Next page</a></p>
-  <img src="caterpillarB.png" class="colinStill">
-  <img src="caterpillarA.png" class="colinStill">
-  <img src="caterpillarB.png" class="colinStill">
-  <img src="caterpillarA.png" class="colinStill">
-  <img src="caterpillarB.png" class="colinStill">
-  <img src="caterpillarHead.png" class="colinStill" id="head" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)">
-  <img src="pear.png" class="pear" id="pear1" draggable="true" ondragstart="dragstartHandler(event)">
-  <img src="pear.png" class="pear" id="pear2" draggable="true" ondragstart="dragstartHandler(event)">
+      <!-- text and links to next page -->
+  <img src="caterpillarB.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarA.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarB.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarA.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarB.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarHead.png" class="colinStill" id="head" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" alt="the caterpillars head">
+  <!-- the caterpillar -->
+  <img src="pear.png" class="pear" id="pear1" draggable="true" ondragstart="dragstartHandler(event)" alt="an image of a pear that you can feed the caterpillar">
+  <img src="pear.png" class="pear" id="pear2" draggable="true" ondragstart="dragstartHandler(event)" alt="an image of a pear that you can feed the caterpillar">>
+    <!--elements you can feed the caterpillar-->
   <img src="bigTree.png" class="bigTree" alt="image of the tree the fruit is in">
-  <img src="ground.png" class="ground">
-
+  <img src="ground.png" class="ground" alt="image of the ground">
+  <!-- background images that make up the page-->
   <script>
     function dragstartHandler(ev) {
       ev.dataTransfer.setData("text", ev.target.id);
@@ -50,7 +53,7 @@
       const allEaten = Array.from(pears).every(pear => pear.parentNode === container);
 
       if (allEaten) {
-        window.location.href = "page6.html"; 
+        window.location.href = "page6.html"; //once all elements with class apple have been eaten the page advances
       }
     }
     document.querySelectorAll("p, a").forEach(element => {

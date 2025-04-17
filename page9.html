@@ -14,7 +14,7 @@
 
   <p class="txt">On Saturday he ate through one piece of chocolate cake, one ice-cream, one pickle, one slice of swiss cheese,
      one slice of salami, one lollipop, one piece of cherry pie, one sausage, one cupcake, and one slice of watermelon. That night he had a stomachache! <a href="page10.html">Next page</a></p>
-
+   <!-- text and links to next page -->
     <img src="cake.png" class="pg9food" id="cake" draggable="true" ondragstart="dragstartHandler(event)">
     <img src="icecream.png" class="pg9food" id="icecream" draggable="true" ondragstart="dragstartHandler(event)">
     <img src="pickle.png" class="pg9food" id="pickle" draggable="true" ondragstart="dragstartHandler(event)">
@@ -25,15 +25,17 @@
     <img src="chorizo.png" class="pg9food" id="chorizo" draggable="true" ondragstart="dragstartHandler(event)">
     <img src="muffin.png" class="pg9food" id="muffin" draggable="true" ondragstart="dragstartHandler(event)">
     <img src="melon.png" class="pg9food" id="melon" draggable="true" ondragstart="dragstartHandler(event)">
-
+  <!--elements you can feed the caterpillar-->
     <img src="caterpillarB.png" class="colinStill">
     <img src="caterpillarA.png" class="colinStill">
     <img src="caterpillarB.png" class="colinStill">
     <img src="caterpillarA.png" class="colinStill">
     <img src="caterpillarB.png" class="colinStill">
     <img src="caterpillarHead.png" class="colinStill" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" id="head">
+      <!-- the caterpillar -->
     <img src="desk.png" class="desk">
-    <img src="ground.png" class="ground">
+    <img src="ground.png" class="ground" alt="image of the ground">
+      <!-- background images that make up the page-->
     <script>
       function dragstartHandler(ev) {
         ev.dataTransfer.setData("text", ev.target.id);
@@ -60,7 +62,7 @@
       const allEaten = Array.from(food).every(pg9food => pg9food.parentNode === container);
 
       if (allEaten) {
-        window.location.href = "page10.html"; 
+        window.location.href = "page10.html"; //once all elements with class apple have been eaten the page advances
       }
     }
     document.querySelectorAll("p, a").forEach(element => {

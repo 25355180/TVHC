@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>The very hungry caterpillar</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head><!-- head of the page -->
+    <title>The very hungry caterpillar</title><!-- sets the page title-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- sets viewport -->
     <link rel="icon" type="image/x-icon" href="favicon.ico"><!-- sets the tab image -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles.css"><!-- stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!-- allows use of google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <audio id="audio" src="indexReading.mp3"></audio>
+    <audio id="audio" src="indexReading.mp3"></audio><!-- audio -->
   </head>
-<body id="index">
-    <h1>The Very Hungry Catterpillar</h1>
-    <h2>By Eric Carle</h2>
-    <p>Press the text to hear it!</p>
-
-    <img src="caterpillarB.png" class="colinTitle">
-    <img src="caterpillarA.png" class="colinTitle">
-    <img src="caterpillarB.png" class="colinTitle">
-    <img src="caterpillarA.png" class="colinTitle">
-    <img src="caterpillarB.png" class="colinTitle">
-    <img src="caterpillarHead.png" class="colinTitle" id="head">
-    <a href="page1.html" id="title">Start reading</a>
-    <script>
-      document.querySelectorAll("h1, h2, p, a").forEach(element => {
-        element.addEventListener("click", function() {
-          document.getElementById("audio").play();
+  <body id="index"><!-- body of the page -->
+      <h1>The Very Hungry Catterpillar</h1>
+      <h2>By Eric Carle</h2>
+      <p>Press the text to hear it!</p>
+  <!-- text and links to next page -->
+      <img src="caterpillarB.png" class="colinTitle">
+      <img src="caterpillarA.png" class="colinTitle">
+      <img src="caterpillarB.png" class="colinTitle">
+      <img src="caterpillarA.png" class="colinTitle">
+      <img src="caterpillarB.png" class="colinTitle">
+      <img src="caterpillarHead.png" class="colinTitle" id="head">
+      <!-- the caterpillar -->
+      <a href="page1.html" id="title">Start reading</a>
+      <script>
+        document.querySelectorAll("h1, h2, p, a").forEach(element => {
+          element.addEventListener("click", function() {
+            document.getElementById("audio").play();
+          });
         });
-      });
-    </script>
-    <!-- selects all h1, h2. p and a elements on the page and makes the audio play when they are clicked -->
-</body>
+      </script>
+      <!-- selects all h1, h2. p and a elements on the page and makes the audio play when they are clicked -->
+  </body>
 </html>

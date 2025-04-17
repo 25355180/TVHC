@@ -13,17 +13,21 @@
 <body><!-- body of the page -->
 
   <p class="txt">On Monday he ate through one apple. But he was still hungry. <a href="page5.html">Next page</a></p>
-  <img src="caterpillarB.png" class="colinStill">
-  <img src="caterpillarA.png" class="colinStill">
-  <img src="caterpillarB.png" class="colinStill">
-  <img src="caterpillarA.png" class="colinStill">
-  <img src="caterpillarB.png" class="colinStill">
-  <img src="caterpillarHead.png" class="colinStill" id="head" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)">
-  <img src="boot.png" class="boot" id="boot1" draggable="true" ondragstart="dragstartHandler(event)">
+      <!-- text and links to next page -->
+  <img src="caterpillarB.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarA.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarB.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarA.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarB.png" class="colinStill" alt="a segment of the caterpillar">
+  <img src="caterpillarHead.png" class="colinStill" id="head" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" alt="the caterpillars head">
+      <!-- the caterpillar -->
+  <img src="boot.png" class="boot" id="boot1" draggable="true" ondragstart="dragstartHandler(event)" alt="an image of a boot that you can feed the caterpillar">
+      <!--elements you can feed the caterpillar-->
   <img src="bigTree.png" class="bigTree" alt="image of the tree the fruit is in">
-  <img src="apple.png" class="apple" id="apple1" draggable="true" ondragstart="dragstartHandler(event)">
-  <img src="ground.png" class="ground">
-
+  <img src="apple.png" class="apple" id="apple1" draggable="true" ondragstart="dragstartHandler(event)" alt="an image of an apple that you can feed the caterpillar">
+      <!--elements you can feed the caterpillar-->
+  <img src="ground.png" class="ground" alt="image of the ground">
+  <!-- background images that make up the page-->
   <script>
     function dragstartHandler(ev) {
       ev.dataTransfer.setData("text", ev.target.id);
@@ -43,7 +47,7 @@
       draggedElement.parentNode.removeChild(draggedElement);
       if (draggedElement.classList.contains("boot")) {
         Sad();
-  }
+  }//switches the caterpillar head image out to make him appear sad when fed the wrong food
       checkapple();
     }
     function checkapple() {
@@ -51,7 +55,7 @@
       const container = document.querySelector("#head");
 
       const allEaten = Array.from(apples).every(apple => apple.parentNode === container);
-
+//once all elements with class apple have been eaten the page advances
       if (allEaten) {
         window.location.href = "page5.html"; 
       }
@@ -59,7 +63,7 @@
     function Sad() {
       const head = document.getElementById("head");
       head.src = "caterpillarHeadSad.png"; 
-    }
+    }//switches the caterpillar head image out to make him appear sad when fed the wrong food
     document.querySelectorAll("p, a").forEach(element => {
       element.addEventListener("click", function() {
         document.getElementById("audio").play();

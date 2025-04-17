@@ -10,6 +10,7 @@
     opacity: 90%;
     z-index: 4;
 }
+/* styles for catterpillar in normal mode */
 .colinStill10{
     width: 6%;
     height: auto;
@@ -21,7 +22,7 @@
     bottom: 0;
     margin-top: 50%;
     z-index: 4;
-}
+}/* styles for catterpillar on page 10 */
 .colin2{
     width: 4%;
     height: auto;
@@ -33,7 +34,7 @@
     opacity: 90%;
     z-index: 4;
     display: none;
-}
+}/* styles for catterpillar on page 2 */
 .colinStill{
     width: 6%;
     height: auto;
@@ -45,7 +46,7 @@
     bottom: 0;
     top: 1%;
     z-index: 4;
-}
+}/* styles for catterpillar in still mode */
 .colinBig{
     width: 12%;
     height: auto;
@@ -58,7 +59,7 @@
     opacity: 90%;
     top: 10px;
     z-index: 4;
-}
+}/* styles for catterpillar in big mode */
 .butterfly{
     width: 20%;
     height: auto;
@@ -69,76 +70,75 @@
     flex-direction: row;
     bottom: 0;
     opacity: 90%;
-}
+}/* styles for butterfly */
 #butterflybody{
     width: 4%;
     height: auto;
     z-index: 3;
-}
+}/* styles for butterfly body*/
 #butterflywingl{
     animation: rockReverse 8s ease-in-out infinite;
     z-index: 2;
     bottom: 5%;
-}
+}/* styles for butterfly wing*/
 #butterflywingr{
     animation: rock 8s ease-in-out infinite;
     z-index: 2;
     bottom: 5%;
-}
+}/* styles for butterfly wing*/
 .cocoon{
     width: 20%;
     height: auto;
     animation: rock 1s ease-in-out infinite;
     cursor: pointer;
-}
+}/* styles for cocoon */
 #egg{
     width: 10%;
     height: auto;
     animation: rock 1s ease-in-out infinite;
     cursor: pointer;
-}
+}/* styles for egg*/
 .colin:nth-of-type(2n) {
     animation: crawl 20s ease-in-out, idle 2s ease-in-out infinite alternate 1s;
-}
+}/* sets animation for segments of caterpillar */
 .colin:nth-last-child(){
     opacity: 0;
-}
+}/* sets animation for segments of caterpillar */
 .colin:nth-of-type(2n-1) {
     animation: crawl 20s ease-in-out, idle 2s ease-in-out infinite alternate;
-}
-
+}/* sets animation for segments of caterpillar */
 .colin2:nth-of-type(2n) {
     animation: crawl 20s ease-in-out, idle 2s ease-in-out infinite alternate 1s;
-}
+}/* sets animation for segments of caterpillar */
 .colin2:nth-last-child(){
     opacity: 0;
-}
+}/* sets animation for segments of caterpillar */
 .colin2:nth-of-type(2n-1) {
     animation: crawl 20s ease-in-out, idle 2s ease-in-out infinite alternate;
-}
+}/* sets animation for segments of caterpillar */
 h1{
     top:0;
     width: 100%;
     height: auto;
-}
+}/* styles for h1 */
 a{
     color: black;
     position: relative;
     text-decoration: none;
     float: right;
-}
+}/* styles for a (links) */
 #title{
     float: left;
-}
+}/* styles for title text */
 .pg1a{
     color: antiquewhite;
-}
+}/* styles for page 1 link */
 a:hover{
     color: darkgreen;
-}
+}/* hover styles for a (links) */
 .pg1a:hover{
     color: rgb(139, 255, 145);
-}
+}/* hover styles for page 1 link */
 .colinTitle{
     width: 14%;
     height: auto;
@@ -150,13 +150,13 @@ a:hover{
     flex-direction: row;
     opacity: 90%;
     z-index: 4;
-}
+}/* styles for catterpillar on title page*/
 .colinTitle:nth-of-type(2n) {
     animation: idle 2s ease-in-out infinite alternate 1s;
-}
+}/* sets animation for segments of caterpillar */
 .colinTitle:nth-of-type(2n-1) {
     animation: idle 2s ease-in-out infinite alternate;
-}
+}/* sets animation for segments of caterpillar */
 
 body{
     width: 100%;
@@ -167,7 +167,7 @@ body{
     color: black;
     font-family: "Atma", system-ui;
     font-weight: 600;
-}
+}/*styles for body */
 body#index{
     background-color: lightblue;
     background-image: radial-gradient(white 5%, transparent 60%);
@@ -175,23 +175,23 @@ body#index{
     background-size: 100px 100px;
     font-family: "Atma", system-ui;
     font-weight: 600;
-}
+}    /*styles for body on index page */
 
 body#page1{
     background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5));
     color: antiquewhite;
     font-family: "Atma", system-ui;
     font-weight: 600;
-}
+}    /*styles for body on page 1 */
 .tree{
     z-index: 2;
     float: right;
     position: relative;
     bottom: 0;
-}
+}    /*styles for tree image */
 .pg1txt{
     color: antiquewhite;
-}
+}    /*styles for text on page 1 */
 .egg{
     width: 10%;
     z-index: 3;
@@ -199,24 +199,24 @@ body#page1{
     position: absolute;
     margin-top: 22%;
     right: 50%;
-}
+} /*styles for egg image */
 .moon{
     width: 30%;
     animation: rock 9s ease-in-out infinite;
     z-index: 1;
     position: absolute;
-}
+} /*styles for moon image */
 img{
     width: 100%;
     height: auto;
-}
+} /*base styles for all images */
 .sun{
     width: 55%;
     height: auto;
     animation: rock 10s ease-in-out infinite alternate-reverse,up 5s ease-in-out;
     position: relative;
     bottom:0;
-}
+} /*styles for sun image */
 .orange{
     width: 8%;
     height: auto;
@@ -226,25 +226,25 @@ img{
     margin-top: 8%;
     animation: rock 3s ease-in-out infinite;
     animation-delay: 1s;
-}
+} /*base styles for orange image */
 #orange2{
     right: 38%;
     margin-top: 15%;
-}
+} /*sets position of orange element */
 #orange3{
     right: 50%;
     margin-top: 5%;
     animation-delay: 1s;
-}
+}/*sets position of orange element */
 #orange4{
     right: 25%;
     margin-top: 18%;
-}
+}/*sets position of orange element */
 #orange5{
     right: 53%;
     margin-top: 18%;
     animation-delay: 1s;
-}
+}/*sets position of orange element */
 .strawberry{
     width: 8%;
     height: auto;
@@ -253,25 +253,25 @@ img{
     position: absolute;
     margin-top: 10%;
     animation: rock 3s ease-in-out infinite;
-}
+}/*sets general styles of strawberry element */
 #strawberry1{
     right: 45%;
     margin-top: 7%;
     animation-delay: 1s;
-}
+}/*sets position of strawberry element */
 #strawberry2{
     right: 27%;
     margin-top: 7%;
-}
+}/*sets position of strawberry element */
 #strawberry3{
     right: 22%;
     margin-top: 20%;
     animation-delay: 1s;
-}
+}/*sets position of strawberry element */
 #strawberry4{
     right: 50%;
     margin-top: 20%;
-}
+}/*sets position of strawberry element */
 .plum{
     width: 5%;
     height: auto;
@@ -280,16 +280,15 @@ img{
     position: absolute;
     margin-top: 10%;
     animation: rock 3s ease-in-out infinite;
-
-}
+}/*sets general styles for plum element */
 #plum2{
     right: 38%;
     margin-top: 7%;
     animation-delay: 1s;
-}
+}/*sets position of plum element */
 #plum3{
     right: 54%;
-}
+}/*sets position of plum element */
 .pear{
     width: 8%;
     height: auto;
@@ -298,12 +297,11 @@ img{
     position: absolute;
     margin-top: 10%;
     animation: rock 3s ease-in-out infinite;
-
-}
+}/*sets general styles for pear element */
 #pear2{
     right: 45%;
     animation-delay: 1s;
-}
+}/*sets position of pear element */
 .apple{
     width: 10%;
     height: auto;
@@ -313,7 +311,7 @@ img{
     margin-top: 10%;
     animation: rock 3s ease-in-out infinite;
     animation-delay: 1s;
-}
+}/*sets styles and position for apple element */
 .ground{
     width: 100%;
     height: auto;
@@ -321,21 +319,21 @@ img{
     bottom: 0;
     left: 0;
     z-index: 1;
-}
+}/*sets styles and position for ground image */
 .bigTree{
     height: auto;
     bottom: 0;
     z-index: 1;
     width: 50%;
     position: relative;
-}
+}/*sets styles and position for big tree image */
 .bush{
     height: auto;
     bottom: 0;
     z-index: 1;
     width: 49%;
     position: relative;
-}
+}/*sets styles and position for bush image */
 .boot{
     width: 10%;
     height: auto;
@@ -343,14 +341,14 @@ img{
     z-index: 2;
     position: absolute;
     margin-top: 31%;
-}
+}/*sets styles and position for boot element */
 .desk{
     height: auto;
     bottom: 0;
     z-index: 1;
     width: 50%;
     position: relative;
-}
+}/*sets styles and position for desk image */
 .pg9food{
     width: 8%;
     height: auto;
@@ -359,107 +357,107 @@ img{
     position: absolute;
     margin-top: 13%;
     animation: rock 3s ease-in-out infinite;
-}
+}/*sets general styles for pg9foods */
 #melon{
     right: 21%;
     width: 6%;
     animation-delay: 1s;
-}
+}/*sets position for food element*/
 #muffin{
     right: 30%;
-}
+}/*sets position for food element*/
 #chorizo{
     right: 42%;
     width: 4%;
     animation-delay: 1s;
-}
+}/*sets position for food element*/
 #lolly{
     right: 50%;
     width: 6%;
-}
+}/*sets position for food element*/
 #cake{
     right: 50%;
     width: 6%;
     margin-top: 3%;
     animation-delay: 1s;
-}
+}/*sets position for food element*/
 #pie{
     right: 59%;
     width: 5%;
     margin-top: 3%;
-}
+}/*sets position for food element*/
 #pickle{
     right: 40%;
     width: 4%;
     margin-top: 3%;
     animation-delay: 1s;
-}
+}/*sets position for food element*/
 #cheese{
     right: 30%;
     width: 6%;
     margin-top: 3%;
-}
+}/*sets position for food element*/
 #sausage{
     right: 21%;
     margin-top: 3%;
     animation-delay: 1s;
-}
+}/*sets position for food element*/
 #icecream{
     right: 57%;
     width: 5%;
     margin-top: 13%;
     animation-delay: 1s;
-}
+}/*sets position for food element*/
 .body.clearfix::after {
     content: "";
     display: block;
     clear: both;
-}
+}/*fixes body*/
 .leaf{
     width: 10%;
     height: auto;
     position: absolute;
     z-index: 3;
-}
+}/*setsgeneral styles for leaves*/
 
 #leaf1{
     right: 11%;
     margin-top: 20%;
-}
+}/*sets position for leaf element*/
 #leaf2{
     right: 14%;
     margin-top: 30%;
-}
+}/*sets position for leaf element*/
 #leaf3{
     right: 12%;
     margin-top: 40%;
-}
+}/*sets position for leaf element*/
 #leaf4{
     right: 10%;
     margin-top: 50%;
-}
+}/*sets position for leaf element*/
 #leaf5{
     right: 8%;
     margin-top: 10%;
-}
+}/*sets position for leaf element*/
 #pg10tree{
     width: 60%;
     height: auto;
-}
+}/*sets width of pg10tree image*/
 .leaf:nth-of-type(2n) {
     animation: rock 3s ease-in-out infinite;
-}
+}/*sets leaf animation*/
 .leaf:nth-of-type(2n-1) {
     animation: rock 3s ease-in-out infinite;
     animation-delay: 1s;
-}
+}/*sets leaf animation*/
 
 .txt{
     z-index: 10;
     width: 100%;
     height: auto;
     font-size: 30px;
-}
+}/*sets styles for book text*/
 @keyframes idle {
     0%, 50%{
         bottom: 0;
@@ -467,7 +465,7 @@ img{
     100% {
         bottom: 20px; 
     }
-}
+}/*sets animation*/
 @keyframes crawl {
     0% {
         left: 0;
@@ -475,7 +473,7 @@ img{
     100% {
         left: 60%; 
     }
-}
+}/*sets animation*/
 @keyframes up {
     0% {
         up: 0;
@@ -483,7 +481,7 @@ img{
     100% {
         transform: translateY(-150px);
     }
-}
+}/*sets animation*/
 @keyframes rotate {
     0% {
       transform: rotate(0deg);
@@ -496,7 +494,7 @@ img{
       transform: rotate(-5deg);
       bottom: -10px;
     }
-}
+}/*sets animation*/
 @keyframes rock {
     0% {
       transform: rotate(0deg);
@@ -507,7 +505,7 @@ img{
     100% {
       transform: rotate(5deg);
     }
-}
+}/*sets animation*/
 @keyframes rockReverse {
     0% {
       transform: rotate(0deg);
@@ -518,4 +516,4 @@ img{
     100% {
       transform: rotate(-5deg);
     }
-}
+}/*sets animation*/
