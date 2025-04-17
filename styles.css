@@ -313,7 +313,7 @@ img{
     animation: rock 3s ease-in-out infinite;
 }
 #melon{
-    right: 20%;
+    right: 21%;
     width: 6%;
     animation-delay: 1s;
 }
@@ -352,7 +352,7 @@ img{
     margin-top: 3%;
 }
 #sausage{
-    right: 20%;
+    right: 21%;
     margin-top: 3%;
     animation-delay: 1s;
 }
