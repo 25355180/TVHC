@@ -15,14 +15,12 @@
   <p class="txt">One sunday morning the warm sun came up and - pop! - Out of the egg came a very tiny and very hungry caterpillar.</p>
   <a href="page3.html">Next page</a>
   <img src="egg.png" id="egg">
-  <div id="caterpillar">
-    <img src="caterpillarB.png" class="colin">
-    <img src="caterpillarA.png" class="colin">
-    <img src="caterpillarB.png" class="colin">
-    <img src="caterpillarA.png" class="colin">
-    <img src="caterpillarB.png" class="colin">
-    <img src="caterpillarHead.png" class="colin">
-  </div>
+  <img src="caterpillarB.png" class="colin" id="caterpillar">
+  <img src="caterpillarA.png" class="colin" id="caterpillar">
+  <img src="caterpillarB.png" class="colin" id="caterpillar">
+  <img src="caterpillarA.png" class="colin" id="caterpillar">
+  <img src="caterpillarB.png" class="colin" id="caterpillar">
+  <img src="caterpillarHead.png" class="colin" id="caterpillar">
   <script>
     const colins = document.querySelectorAll('.colin');
     colins.forEach((colin) => {
@@ -36,7 +34,9 @@
       this.src = "eggCrack.png";
       this.style.animation = "none";
     })
-    document.getElementById("caterpillar").style.display = "inline-flex";
+    document.querySelectorAll(".colin").forEach(caterpillar => {
+      caterpillar.style.display = "inline-flex";
+    })
   </script>
   <img src="ground.png" class="ground">
 </body>
