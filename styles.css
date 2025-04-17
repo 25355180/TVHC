@@ -358,24 +358,24 @@ img{
     animation: rock 3s ease-in-out infinite;
 }
 #melon{
-    right: 18%;
+    right: 17%;
     width: 6%;
     animation-delay: 1s;
 }
 #muffin{
-    right: 27%;
+    right: 26%;
 }
 #chorizo{
-    right: 39%;
+    right: 38%;
     width: 4%;
     animation-delay: 1s;
 }
 #lolly{
-    right: 47%;
+    right: 46%;
     width: 6%;
 }
 #cake{
-    right: 47%;
+    right: 46%;
     width: 6%;
     margin-top: 3%;
     animation-delay: 1s;
@@ -386,18 +386,18 @@ img{
     margin-top: 3%;
 }
 #pickle{
-    right: 37%;
+    right: 36%;
     width: 4%;
     margin-top: 3%;
     animation-delay: 1s;
 }
 #cheese{
-    right: 27%;
+    right: 26%;
     width: 6%;
     margin-top: 3%;
 }
 #sausage{
-    right: 18%;
+    right: 17%;
     margin-top: 3%;
     animation-delay: 1s;
 }
