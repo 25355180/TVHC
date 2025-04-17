@@ -117,17 +117,20 @@ body{
     background-color: antiquewhite;
     margin: 0;
     color: black;
+    font-family: "Atma", system-ui;
 }
 body#index{
     background-color: lightblue;
     background-image: radial-gradient(white 5%, transparent 60%);
     background-position: 0 0, 50px 50px;
     background-size: 100px 100px;
+    font-family: "Atma", system-ui;
 }
 
 body#page1{
     background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5));
     color: antiquewhite;
+    font-family: "Atma", system-ui;
 }
 .tree{
     z-index: 2;
