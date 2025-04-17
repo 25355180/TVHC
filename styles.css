@@ -87,7 +87,7 @@
     bottom: 5%;
 }/* styles for butterfly wing*/
 .cocoon{
-    width: 20%;
+    width: 23%;
     height: auto;
     animation: rock 1s ease-in-out infinite;
     cursor: pointer;
@@ -120,6 +120,7 @@ h1{
     top:0;
     width: 100%;
     height: auto;
+    cursor: pointer;
 }/* styles for h1 */
 a{
     color: black;
@@ -127,9 +128,11 @@ a{
     text-decoration: none;
     display: flex;
     justify-self:right;
+    cursor: pointer;
 }/* styles for a (links) */
 #title{
     float: left;
+    cursor: pointer;
 }/* styles for title text */
 .pg1a{
     color: antiquewhite;
@@ -227,6 +230,7 @@ img{
     margin-top: 8%;
     animation: rock 3s ease-in-out infinite;
     animation-delay: 1s;
+    cursor: pointer;
 } /*base styles for orange image */
 #orange2{
     right: 38%;
@@ -254,6 +258,7 @@ img{
     position: absolute;
     margin-top: 10%;
     animation: rock 3s ease-in-out infinite;
+    cursor: pointer;
 }/*sets general styles of strawberry element */
 #strawberry1{
     right: 45%;
@@ -281,6 +286,7 @@ img{
     position: absolute;
     margin-top: 10%;
     animation: rock 3s ease-in-out infinite;
+    cursor: pointer;
 }/*sets general styles for plum element */
 #plum2{
     right: 38%;
@@ -298,6 +304,7 @@ img{
     position: absolute;
     margin-top: 10%;
     animation: rock 3s ease-in-out infinite;
+    cursor: pointer;
 }/*sets general styles for pear element */
 #pear2{
     right: 45%;
@@ -312,6 +319,7 @@ img{
     margin-top: 10%;
     animation: rock 3s ease-in-out infinite;
     animation-delay: 1s;
+    cursor: pointer;
 }/*sets styles and position for apple element */
 .ground{
     width: 100%;
@@ -342,6 +350,7 @@ img{
     z-index: 2;
     position: absolute;
     margin-top: 31%;
+    cursor: pointer;
 }/*sets styles and position for boot element */
 .desk{
     height: auto;
@@ -358,6 +367,7 @@ img{
     position: absolute;
     margin-top: 13%;
     animation: rock 3s ease-in-out infinite;
+    cursor: pointer;
 }/*sets general styles for pg9foods */
 #melon{
     right: 21%;
@@ -419,6 +429,7 @@ img{
     height: auto;
     position: absolute;
     z-index: 3;
+    cursor: pointer;
 }/*setsgeneral styles for leaves*/
 
 #leaf1{
@@ -458,6 +469,7 @@ img{
     width: 100%;
     height: auto;
     font-size: 25px;
+    cursor: pointer;
 }/*sets styles for book text*/
 @keyframes idle {
     0%, 50%{
