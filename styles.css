@@ -127,6 +127,9 @@ a{
     text-decoration: none;
     float: right;
 }
+#title{
+    float: left;
+}
 .pg1a{
     color: antiquewhite;
 }
