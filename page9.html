@@ -12,6 +12,7 @@
 <body>
   <p class="txt">On Saturday he ate through one piece of chocolate cake, one ice-cream, one pickle, one slice of swiss cheese,
      one slice of salami, one lollipop, one piece of cherry pie, one sausage, one cupcake, and one slice of watermelon. That night he had a stomachache!</p>
+     <a href="page10.html">Next page</a>
     <img src="cake.png" class="pg9food" id="cake" draggable="true" ondragstart="dragstartHandler(event)">
     <img src="icecream.png" class="pg9food" id="icecream" draggable="true" ondragstart="dragstartHandler(event)">
     <img src="pickle.png" class="pg9food" id="pickle" draggable="true" ondragstart="dragstartHandler(event)">
@@ -31,7 +32,6 @@
     <img src="caterpillarHead.png" class="colinStill" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" id="head">
     <img src="desk.png" class="desk">
     <img src="ground.png" class="ground">
-    <a href="page10.html">Next page</a>
     <script>
       function dragstartHandler(ev) {
         ev.dataTransfer.setData("text", ev.target.id);
