@@ -97,11 +97,16 @@ h1{
 .colinTitle{
     width: 15%;
     height: auto;
-    display: inline;
+    display: inline-flex;
+    justify-content: space-evenly;
     margin: 0;
     position: relative;
     bottom: 0;
     float: left;
+    margin: -5px;
+    flex-direction: row;
+    opacity: 90%;
+    z-index: 4;
 }
 .colinTitle:nth-of-type(2n) {
     animation: idle 2s ease-in-out infinite alternate 1s;
