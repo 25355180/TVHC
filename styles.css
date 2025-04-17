@@ -365,6 +365,7 @@ img{
     right: 57%;
     width: 5%;
     margin-top: 13%;
+    animation-delay: 1s;
 }
 .body.clearfix::after {
     content: "";
