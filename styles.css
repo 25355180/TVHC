@@ -120,6 +120,12 @@ a{
 .pg1a{
     color: antiquewhite;
 }
+a:hover{
+    color: darkgreen;
+}
+.pg1a:hover{
+    color: rgb(139, 255, 145);
+}
 .colinTitle{
     width: 14%;
     height: auto;
