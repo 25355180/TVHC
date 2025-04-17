@@ -310,17 +310,20 @@ img{
     z-index: 2;
     position: absolute;
     margin-top: 13%;
+    animation: rock 3s ease-in-out infinite;
 }
 #melon{
     right: 20%;
     width: 6%;
+    animation-delay: 1s;
 }
 #muffin{
     right: 30%;
 }
 #chorizo{
-    right: 40%;
+    right: 42%;
     width: 4%;
+    animation-delay: 1s;
 }
 #lolly{
     right: 50%;
@@ -330,9 +333,10 @@ img{
     right: 50%;
     width: 6%;
     margin-top: 3%;
+    animation-delay: 1s;
 }
 #pie{
-    right: 60%;
+    right: 59%;
     width: 5%;
     margin-top: 3%;
 }
@@ -340,6 +344,7 @@ img{
     right: 40%;
     width: 4%;
     margin-top: 3%;
+    animation-delay: 1s;
 }
 #cheese{
     right: 30%;
@@ -349,11 +354,12 @@ img{
 #sausage{
     right: 20%;
     margin-top: 3%;
+    animation-delay: 1s;
 }
 #icecream{
     right: 57%;
     width: 5%;
-    margin-top: 15%;
+    margin-top: 13%;
 }
 .body.clearfix::after {
     content: "";
