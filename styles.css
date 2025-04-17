@@ -193,7 +193,7 @@ body#page1{
     z-index: 3;
     animation: rock 0.3s ease-in-out infinite;
     position: absolute;
-    margin-top: 20%;
+    margin-top: 22%;
     right: 50%;
 }
 .moon{
