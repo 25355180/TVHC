@@ -118,6 +118,7 @@ body{
     margin: 0;
     color: black;
     font-family: "Atma", system-ui;
+    font-weight: 600;
 }
 body#index{
     background-color: lightblue;
@@ -125,12 +126,14 @@ body#index{
     background-position: 0 0, 50px 50px;
     background-size: 100px 100px;
     font-family: "Atma", system-ui;
+    font-weight: 600;
 }
 
 body#page1{
     background-image: linear-gradient(rgb(15, 15, 38), rgb(5, 13, 5));
     color: antiquewhite;
     font-family: "Atma", system-ui;
+    font-weight: 600;
 }
 .tree{
     z-index: 2;
