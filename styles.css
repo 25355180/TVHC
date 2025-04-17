@@ -97,7 +97,7 @@ h1{
 .colinTitle{
     width: 15%;
     height: auto;
-    display: inline-flex;
+    display: inline;
     margin: 0;
     position: relative;
     bottom: 0;
