@@ -94,6 +94,13 @@ h1{
     width: 100%;
     height: auto;
 }
+a{
+    color: black;
+
+}
+.pg1a{
+    color: antiquewhite;
+}
 .colinTitle{
     width: 14%;
     height: auto;
