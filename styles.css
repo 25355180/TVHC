@@ -300,10 +300,10 @@ img{
 .cake{
     width: 8%;
     height: auto;
-    right: 20%;
+    right: 60%;
     z-index: 2;
     position: absolute;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .body.clearfix::after {
     content: "";
