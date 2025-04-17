@@ -296,14 +296,15 @@ img{
     z-index: 1;
     width: 50%;
     position: relative;
+    right: 50%;
 }
 .cake{
-    width: 10%;
+    width: 8%;
     height: auto;
-    right: 15%;
+    right: 20%;
     z-index: 2;
     position: absolute;
-    margin-top: 31%;
+    margin-top: 10%;
 }
 .body.clearfix::after {
     content: "";
