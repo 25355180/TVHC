@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>The very hungry caterpillar</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head><!-- head of the page -->
+    <title>The very hungry caterpillar</title><!-- sets the page title-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- sets viewport -->
     <link rel="icon" type="image/x-icon" href="favicon.ico"><!-- sets the tab image -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles.css"><!-- stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!-- allows use of google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <audio id="audio" src="page1Reading.mp3"></audio><!-- audio -->
   </head>
-<body id="page1">
+  <body id="page1"></body>
+  <!-- body of the page -->
 
     <p class="pg1txt">In the light of the moon a little egg lay on a leaf.</p>
     <a href="page2.html" class="pg1a">Next page</a>
@@ -19,7 +21,14 @@
       <img src="egg.png" class="egg">
     </div>
 
-
+    <script>
+      document.querySelectorAll("p, a").forEach(element => {
+        element.addEventListener("click", function() {
+          document.getElementById("audio").play();
+        });
+      });
+    </script>
+    <!-- selects all p and a elements on the page and makes the audio play when they are clicked -->
 
 </body>
 </html>
