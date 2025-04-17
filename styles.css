@@ -331,7 +331,7 @@ img{
     width: 6%;
     margin-top: 3%;
 }
-#icecream{
+#pie{
     right: 60%;
     width: 5%;
     margin-top: 3%;
@@ -350,9 +350,9 @@ img{
     right: 20%;
     margin-top: 3%;
 }
-#pie{
-    right: 55%;
-    width: 6%;
+#icecream{
+    right: 57%;
+    width: 5%;
     margin-top: 15%;
 }
 .body.clearfix::after {
