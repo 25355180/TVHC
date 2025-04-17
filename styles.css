@@ -309,7 +309,7 @@ img{
     right: 60%;
     z-index: 2;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 13%;
 }
 #melon{
     right: 20%;
@@ -317,11 +317,10 @@ img{
 }
 #muffin{
     right: 30%;
-    width: 6%;
 }
 #chorizo{
     right: 40%;
-    width: 6%;
+    width: 5%;
 }
 #lolly{
     right: 50%;
@@ -330,32 +329,30 @@ img{
 #cake{
     right: 50%;
     width: 6%;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 #icecream{
     right: 60%;
-    width: 6%;
-    margin-top: 1%;
+    width: 5%;
+    margin-top: 3%;
 }
 #pickle{
     right: 40%;
-    width: 6%;
-    margin-top: 1%;
+    width: 5%;
+    margin-top: 3%;
 }
 #cheese{
     right: 30%;
     width: 6%;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 #sausage{
     right: 20%;
-    width: 6%;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 #pie{
-    right: 50%;
-    width: 6%;
-    margin-top: 1%;
+    right: 10%;
+    margin-top: 3%;
 }
 .body.clearfix::after {
     content: "";
