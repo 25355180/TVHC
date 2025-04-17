@@ -95,14 +95,12 @@ h1{
     height: auto;
 }
 .colinTitle{
-    width: 15%;
+    width: 14%;
     height: auto;
     display: inline-flex;
     justify-content: space-evenly;
-    margin: 0;
     position: relative;
     bottom: 0;
-    float: left;
     margin: -5px;
     flex-direction: row;
     opacity: 90%;
