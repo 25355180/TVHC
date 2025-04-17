@@ -327,6 +327,36 @@ img{
     right: 50%;
     width: 6%;
 }
+#cake{
+    right: 50%;
+    width: 6%;
+    margin-top: 1%;
+}
+#icecream{
+    right: 60%;
+    width: 6%;
+    margin-top: 1%;
+}
+#pickle{
+    right: 40%;
+    width: 6%;
+    margin-top: 1%;
+}
+#cheese{
+    right: 30%;
+    width: 6%;
+    margin-top: 1%;
+}
+#sausage{
+    right: 20%;
+    width: 6%;
+    margin-top: 1%;
+}
+#pie{
+    right: 50%;
+    width: 6%;
+    margin-top: 1%;
+}
 .body.clearfix::after {
     content: "";
     display: block;
