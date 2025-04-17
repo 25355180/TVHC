@@ -247,7 +247,7 @@ img{
 
 }
 #pear2{
-    right: 40%;
+    right: 45%;
     animation-delay: 1s;
 }
 .apple{
@@ -283,6 +283,21 @@ img{
     position: relative;
 }
 .boot{
+    width: 10%;
+    height: auto;
+    right: 15%;
+    z-index: 2;
+    position: absolute;
+    margin-top: 31%;
+}
+.desk{
+    height: auto;
+    bottom: 0;
+    z-index: 1;
+    width: 50%;
+    position: relative;
+}
+.cake{
     width: 10%;
     height: auto;
     right: 15%;
