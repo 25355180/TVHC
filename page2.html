@@ -14,12 +14,15 @@
   <img src="sun.png" class="sun">
   <p class="txt">One sunday morning the warm sun came up and - pop! - Out of the egg came a very tiny and very hungry caterpillar.</p>
   <a href="page3.html">Next page</a>
-  <img src="caterpillarB.png" class="colin">
-  <img src="caterpillarA.png" class="colin">
-  <img src="caterpillarB.png" class="colin">
-  <img src="caterpillarA.png" class="colin">
-  <img src="caterpillarB.png" class="colin">
-  <img src="caterpillarHead.png" class="colin">
+  <img src="egg.png" id="egg">
+  <div id="caterpillar">
+    <img src="caterpillarB.png" class="colin">
+    <img src="caterpillarA.png" class="colin">
+    <img src="caterpillarB.png" class="colin">
+    <img src="caterpillarA.png" class="colin">
+    <img src="caterpillarB.png" class="colin">
+    <img src="caterpillarHead.png" class="colin">
+</div>
   <script>
     const colins = document.querySelectorAll('.colin');
     colins.forEach((colin) => {
@@ -29,6 +32,11 @@
             }
         });
     });
+    document.getElementById("egg").addEventListener("click", function() {
+      this.src = "eggCrack.png";
+      this.style.animation = "none";
+    })
+    document.getElementById("caterpillar").style.display = "block";
   </script>
   <img src="ground.png" class="ground">
 </body>
