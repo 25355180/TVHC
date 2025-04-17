@@ -12,25 +12,55 @@
 <body>
   <p class="txt">On Saturday he ate through one piece of chocolate cake, one ice-cream, one pickle, one slice of swiss cheese,
      one slice of salami, one lollipop, one piece of cherry pie, one sausage, one cupcake, and one slice of watermelon. That night he had a stomachache!</p>
-    <img src="cake.png" class="pg9food" id="cake">
-    <img src="icecream.png" class="pg9food" id="icecream">
-    <img src="pickle.png" class="pg9food" id="pickle">
-    <img src="cheese.png" class="pg9food" id="cheese">
-    <img src="sausageSlice.png" class="pg9food" id="sausage">
-    <img src="lolly.png" class="pg9food" id="lolly">
-    <img src="pie.png" class="pg9food" id="pie">
-    <img src="chorizo.png" class="pg9food" id="chorizo">
-    <img src="muffin.png" class="pg9food" id="muffin">
-    <img src="melon.png" class="pg9food" id="melon">
+    <img src="cake.png" class="pg9food" id="cake" draggable="true" ondragstart="dragstartHandler(event)">
+    <img src="icecream.png" class="pg9food" id="icecream" draggable="true" ondragstart="dragstartHandler(event)">
+    <img src="pickle.png" class="pg9food" id="pickle" draggable="true" ondragstart="dragstartHandler(event)">
+    <img src="cheese.png" class="pg9food" id="cheese" draggable="true" ondragstart="dragstartHandler(event)">
+    <img src="sausageSlice.png" class="pg9food" id="sausage" draggable="true" ondragstart="dragstartHandler(event)">
+    <img src="lolly.png" class="pg9food" id="lolly" draggable="true" ondragstart="dragstartHandler(event)">
+    <img src="pie.png" class="pg9food" id="pie" draggable="true" ondragstart="dragstartHandler(event)">
+    <img src="chorizo.png" class="pg9food" id="chorizo" draggable="true" ondragstart="dragstartHandler(event)">
+    <img src="muffin.png" class="pg9food" id="muffin" draggable="true" ondragstart="dragstartHandler(event)">
+    <img src="melon.png" class="pg9food" id="melon" draggable="true" ondragstart="dragstartHandler(event)">
 
     <img src="caterpillarB.png" class="colinStill">
     <img src="caterpillarA.png" class="colinStill">
     <img src="caterpillarB.png" class="colinStill">
     <img src="caterpillarA.png" class="colinStill">
     <img src="caterpillarB.png" class="colinStill">
-    <img src="caterpillarHead.png" class="colinStill">
+    <img src="caterpillarHead.png" class="colinStill" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" id="head">
     <img src="desk.png" class="desk">
     <img src="ground.png" class="ground">
     <a href="page10.html">Next page</a>
+    <script>
+      function dragstartHandler(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+      }
+      
+      function dragoverHandler(ev) {
+        ev.preventDefault();
+      }
+      
+      function dropHandler(ev) {
+        ev.preventDefault();
+        const data = ev.dataTransfer.getData("text");
+        const draggedElement = document.getElementById(data);
+        
+        ev.target.appendChild(draggedElement);
+        
+        draggedElement.parentNode.removeChild(draggedElement);
+        checkLeaves();
+      }
+    function checkLeaves() {
+      const food = document.querySelectorAll(".pg9food"); 
+      const container = document.querySelector("#head");
+
+      const allEaten = Array.from(food).every(pg9food => pg9food.parentNode === container);
+
+      if (allEaten) {
+        window.location.href = "page10.html"; 
+      }
+    }
+  </script>
 </body>
 </html>
