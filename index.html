@@ -26,19 +26,19 @@
       <img src="caterpillarHead.png" class="colinTitle" id="head" alt="the caterpillars head">
       <!-- the caterpillar -->
       <a href="page1.html" id="title">Start reading</a>
-      <script>
+      <script>//javascript
         document.querySelectorAll(".colinTitle").forEach(element => {
           element.addEventListener("click", function() {
             document.getElementById("colinAudio").play();
           });//plays audio when caterpillar clicked
         });
-        document.querySelectorAll("h1, h2, p, a").forEach(element => {
+        document.querySelectorAll("h1, h2, p").forEach(element => {
           element.addEventListener("click", function() {
             document.getElementById("audio").play();
           });
         });
       </script>
-      <!-- selects all h1, h2. p and a elements on the page and makes the audio play when they are clicked -->
+      <!-- selects all h1, h2 and p elements on the page and makes the audio play when they are clicked -->
   </body>
         <!-- made by Alison Marsh for Edge Hill University final project -->
 </html>

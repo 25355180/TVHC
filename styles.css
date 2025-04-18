@@ -200,6 +200,7 @@ body#page1{
 }    /*styles for tree image */
 .pg1txt{
     color: antiquewhite;
+    cursor: pointer;
 }    /*styles for text on page 1 */
 .egg{
     width: 10%;

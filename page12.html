@@ -19,18 +19,18 @@
   <img src="cocoon.png" class="cocoon" id="cocoon" alt="image of the caterpillars cocoon">
   <img src="ground.png" class="ground" alt="image of the ground">
   <!-- background images that make up the page-->
-  <script>
+  <script>//javascript
     document.getElementById("cocoon").addEventListener("click", function() {
       this.src = "cocoonOpen.png";
       this.style.animation = "none";//stops animation
     })
     //this function replaces the cocoon image with the cocoon open image when clicked
-    document.querySelectorAll("p, a").forEach(element => {
+    document.querySelectorAll("p").forEach(element => {
       element.addEventListener("click", function() {
         document.getElementById("audio").play();
       });
     });
-    //  selects all p and a elements on the page and makes the audio play when they are clicked
+    //  selects all p elements on the page and makes the audio play when they are clicked
 
   </script>
 </body>

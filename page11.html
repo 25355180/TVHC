@@ -25,8 +25,8 @@
   <!-- the caterpillar -->
   <img src="ground.png" class="ground" alt="image of the ground">
   <!-- background images that make up the page-->
-  <script>
-    document.querySelectorAll("p, a").forEach(element => {
+  <script>//javascript
+    document.querySelectorAll("p").forEach(element => {
       element.addEventListener("click", function() {
         document.getElementById("audio").play();
       });
@@ -37,6 +37,6 @@
           });//plays audio when caterpillar clicked
         });
   </script>
-  <!-- selects all p and a elements on the page and makes the audio play when they are clicked -->
+  <!-- selects all p elements on the page and makes the audio play when they are clicked -->
 </body>
 </html>

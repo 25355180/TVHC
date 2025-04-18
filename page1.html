@@ -25,11 +25,11 @@
             <!-- background images that make up the page-->
     </div>
 
-    <script>
-      document.querySelectorAll("p, a").forEach(element => {
+    <script>//javascript
+      document.querySelectorAll("p").forEach(element => {
         element.addEventListener("click", function() {
           document.getElementById("audio").play();
-        });
+        });//selects all p elements on the page and makes the audio play when they are clicked
       });
       document.querySelectorAll(".moon").forEach(element => {
         element.addEventListener("click", function() {
@@ -37,7 +37,5 @@
         });
       });
     </script>
-    <!-- selects all p and a elements on the page and makes the audio play when they are clicked -->
-
 </body>
 </html>

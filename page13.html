@@ -19,19 +19,21 @@
   <img src="wingL.png" class="butterfly" id="butterflywingl" alt="the butterflies left wing">
   <img src="butterfly.png" class="butterfly" id="butterflybody" alt="the butterflies body">
   <img src="wingR.png" class="butterfly" id="butterflywingr" alt="the butterflies right wing">
+    <!-- the butterfly -->
   <img src="ground.png" class="ground" alt="image of the ground">
-  <script>
+    <!-- background elements -->
+  <script>//javascript
     document.querySelectorAll("butterfly").forEach(element => {
       element.addEventListener("click", function() {
         document.getElementById("butterflyAudio").play();//plays audio when butterfly clicked
       });
     });
-    document.querySelectorAll("p, a").forEach(element => {
+    document.querySelectorAll("p").forEach(element => {
       element.addEventListener("click", function() {
         document.getElementById("audio").play();
       });
     });
   </script>
-  <!-- selects all p and a elements on the page and makes the audio play when they are clicked -->
+  <!-- selects all p elements on the page and makes the audio play when they are clicked -->
 </body>
 </html>

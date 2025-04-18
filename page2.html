@@ -28,7 +28,7 @@
   <!-- the caterpillar -->
   <img src="ground.png" class="ground" alt="image of the ground">
   <!-- background images that make up the page-->
-  <script>
+  <script>//javascript
     const colins = document.querySelectorAll('.colin2');
     colins.forEach((colin2) => {
         colin2.addEventListener('animationend', (event) => {
@@ -43,12 +43,12 @@
       document.querySelectorAll(".colin2").forEach(caterpillar => {
         caterpillar.style.display = "inline-flex"; //replaces caterpillar style from none to inline flex which makes it appear
     })})
-    document.querySelectorAll("p, a").forEach(element => {
+    document.querySelectorAll("p").forEach(element => {
       element.addEventListener("click", function() {
         document.getElementById("audio").play();
       });
     });
-    //  selects all p and a elements on the page and makes the audio play when they are clicked
+    //  selects all p elements on the page and makes the audio play when they are clicked
     document.querySelectorAll(".sun").forEach(element => {
         element.addEventListener("click", function() {
           document.getElementById("sunAudio").play(); //plays audio when sun is clicked

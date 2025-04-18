@@ -37,7 +37,7 @@
     <img src="desk.png" class="desk">
     <img src="ground.png" class="ground" alt="image of the ground">
       <!-- background images that make up the page-->
-    <script>
+    <script>//javascript
       function dragstartHandler(ev) {
         ev.dataTransfer.setData("text", ev.target.id);
       }
@@ -66,12 +66,12 @@
         window.location.href = "page10.html"; //once all elements with class apple have been eaten the page advances
       }
     }
-    document.querySelectorAll("p, a").forEach(element => {
+    document.querySelectorAll("p").forEach(element => {
       element.addEventListener("click", function() {
         document.getElementById("audio").play();
       });
     });
-    //  selects all p and a elements on the page and makes the audio play when they are clicked
+    //  selects all p elements on the page and makes the audio play when they are clicked
 
   </script>
 </body>
