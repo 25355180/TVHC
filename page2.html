@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <audio id="audio" src="page2Reading.mp3"></audio><!-- audio -->
+    <audio id="sunAudio" src="sunNoise.mp3"></audio><!-- audio -->
   </head>
 <body id="page2"><!-- body of the page -->
 
@@ -47,7 +48,11 @@
       });
     });
     //  selects all p and a elements on the page and makes the audio play when they are clicked
-
+    document.querySelectorAll("sun").forEach(element => {
+        element.addEventListener("click", function() {
+          document.getElementById("sunAudio").play(); //plays audio when sun is clicked
+        });
+      });
   </script>
 </body>
 </html>

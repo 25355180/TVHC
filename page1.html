@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <audio id="audio" src="page1Reading.mp3"></audio><!-- audio -->
+    <audio id="moonAudio" src="moonNoise.mp3"></audio><!-- audio -->
   </head>
   <body id="page1"></body>
   <!-- body of the page -->
@@ -18,7 +19,7 @@
           <!-- text and links to next page -->
     <a href="page2.html" class="pg1a">Next page</a>
     <div class="pg1bg">
-      <img src="moon.png" class="moon" alt="image of the moon">
+      <img src="moon.png" class="moon" id="moon" alt="image of the moon">
       <img src="tree.png" class="tree" alt="image of tree bark">
       <img src="egg.png" class="egg" alt="image of an egg">
             <!-- background images that make up the page-->
@@ -28,6 +29,11 @@
       document.querySelectorAll("p, a").forEach(element => {
         element.addEventListener("click", function() {
           document.getElementById("audio").play();
+        });
+      });
+      document.querySelectorAll("moon").forEach(element => {
+        element.addEventListener("click", function() {
+          document.getElementById("moonAudio").play(); //plays audio when moon is clicked
         });
       });
     </script>
