@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <audio id="audio" src="page13Reading.mp3"></audio><!-- audio -->
+    <audio id="butterflyAudio" src="butterflyNoise.mp3"></audio><!-- audio -->
   </head>
 <body><!-- body of the page -->
 
@@ -20,6 +21,11 @@
   <img src="wingR.png" class="butterfly" id="butterflywingr" alt="the butterflies right wing">
   <img src="ground.png" class="ground" alt="image of the ground">
   <script>
+    document.querySelectorAll("butterfly").forEach(element => {
+      element.addEventListener("click", function() {
+        document.getElementById("butterflyAudio").play();//plays audio when butterfly clicked
+      });
+    });
     document.querySelectorAll("p, a").forEach(element => {
       element.addEventListener("click", function() {
         document.getElementById("audio").play();
