@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <audio id="audio" src="indexReading.mp3"></audio><!-- audio -->
+    <audio id="colinAudio" src="colinNoise.mp3"></audio><!-- audio -->
   </head>
   <body id="index"><!-- body of the page -->
       <h1>The Very Hungry Caterpillar</h1>
@@ -26,6 +27,11 @@
       <!-- the caterpillar -->
       <a href="page1.html" id="title">Start reading</a>
       <script>
+        document.querySelectorAll(".colinTitle").forEach(element => {
+          element.addEventListener("click", function() {
+            document.getElementById("colinAudio").play();
+          });//plays audio when caterpillar clicked
+        });
         document.querySelectorAll("h1, h2, p, a").forEach(element => {
           element.addEventListener("click", function() {
             document.getElementById("audio").play();

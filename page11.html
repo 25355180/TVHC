@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <audio id="audio" src="page11Reading.mp3"></audio><!-- audio -->
+    <audio id="colinBigAudio" src="colinBigNoise.mp3"></audio><!-- audio -->
   </head>
 <body><!-- body of the page -->
 
@@ -30,6 +31,11 @@
         document.getElementById("audio").play();
       });
     });
+    document.querySelectorAll(".colinBig").forEach(element => {
+          element.addEventListener("click", function() {
+            document.getElementById("colinBigAudio").play();
+          });//plays audio when caterpillar clicked
+        });
   </script>
   <!-- selects all p and a elements on the page and makes the audio play when they are clicked -->
 </body>

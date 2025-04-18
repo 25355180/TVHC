@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <audio id="audio" src="page3Reading.mp3"></audio><!-- audio -->
     <audio id="sunAudio" src="sunNoise.mp3"></audio><!-- audio -->
+    <audio id="colinAudio" src="colinNoise.mp3"></audio><!-- audio -->
   </head>
 <body><!-- body of the page -->
 
@@ -32,11 +33,16 @@
         document.getElementById("audio").play();
       });
     });
-    document.querySelectorAll("sun").forEach(element => {
+    document.querySelectorAll(".sun").forEach(element => {
         element.addEventListener("click", function() {
           document.getElementById("sunAudio").play(); //plays audio when sun is clicked
         });
       });
+      document.querySelectorAll(".colin").forEach(element => {
+          element.addEventListener("click", function() {
+            document.getElementById("colinAudio").play();
+          });//plays audio when caterpillar clicked
+        });
   </script>
   <!-- selects all p and a elements on the page and makes the audio play when they are clicked -->
 </body>
